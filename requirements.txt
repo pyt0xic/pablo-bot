@@ -1,2 +1,4 @@
 rasa
 pandas
+beautifulsoup4
+python-graphql-client
