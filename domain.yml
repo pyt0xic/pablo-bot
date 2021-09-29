@@ -1,34 +1,139 @@
-version: "2.0"
-
-intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-
-responses:
-  utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
+version: '2.0'
+config:
+  store_entities_as_slots: true
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+intents:
+- greet
+- chitchat:
+    is_retrieval_intent: true
+- faq:
+    is_retrieval_intent: true
+- out_of_scope:
+    is_retrieval_intent: true
+- affirm
+- deny
+- bye
+- react_positive
+- react_negative
+- explain
+- thank
+- help
+- contact
+- inform
+- restart
+
+entities:
+- language
+- location
+- name
+
+slots:
+  name:
+    type: text
+    influence_conversation: true
+
+responses:
+  utter_ask_name:
+  - text: Hey! My name is Pablo, I am a bot, whats your name?
+  utter_greet_by_name:
+  - text: Nice to meet you {name}! How are you doing?
+  utter_greet:
+  - text: Nice to meet you! How are you doing?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great!, how can I help you today? I can tell you about our company, how we can help you or why you should consider implementign a chatbot into your business!
+  utter_goodbye:
+  - text: Bye! Was nice chatting to you, if you'd like you can restart this conversation by simply telling me too.
+  utter_chitchat/ask_howdoing:
+  - text: I'm great! Thanks for asking.
+  - text: I'm good, thanks!
+  - text: A little bit too warm, otherwise fine.
+  - text: A little bit cold, otherwise fine.
+  utter_chitchat/ask_howold:
+  - text: Old enough to be a bot!
+  - text: '42'
+  - text: Age is just an issue of mind over matter. If you don’t mind, it doesn’t matter.
+  - text: My first git commit was many moons ago.
+  - text: Why do you ask? Are my wrinkles showing?
+  - text: I've hit the age where I actively try to forget how old I am.
+  utter_chitchat/ask_isbot:
+  - text: Yep, I'm a bot!
+  - text: Yes, I'm a bot.
+  - text: Yep, you guessed it, I'm a bot!
+  - text: I am indeed a bot 🤖
+  utter_chitchat/ask_ishuman:
+  - text: I'm not a human, I'm a bot! 🤖
+  utter_chitchat/ask_restaurant:
+  - text: I'm sorry, I can't recommend you a restaurant as I usually cook at home.
+  - text: I'm sorry, I'm not getting taste buds for another few updates.
+  - text: I'd need some more data. If you lick the monitor perhaps I can evaluate your taste buds.
+  utter_chitchat/ask_time:
+  - text: It's the most wonderful time of the year!
+  - text: It's party time!
+  - text: Time is a human construct, you'll have to tell me.
+  - text: It's five o'clock somewhere!
+  - text: "In an ever expanding universe, the real question is: what time isn't it?"
+  - text: That's hard to say -- it's different all over the world!
+  utter_chitchat/ask_languagesbot:
+  - text: I can spell baguette in French, but unfortunately English is the only language I can answer you in.
+  - text: I am in the process of learning, but at the moment I can only speak English.
+  - text: Binary code and the language of love. And English.
+  - text: I was written in Python, but for your convenience I'll translate to English.
+  utter_chitchat/ask_weather:
+  - text: I don't know about where you live, but in my world it's always sunny 🔆
+  - text: It's getting pretty chilly!
+  - text: Where I'm from, it's almost never-leaving-the-house weather.
+  - text: Winter is coming ⚔️
+  utter_chitchat/ask_whatismyname:
+  - text: It's probably the one that your parents chose for you.
+  - text: I'd tell you, but there's restricted access to that chunk of memory.
+  - text: Believe it or not, I actually am not spying on your personal information.
+  - text: You're the second person now to ask me that. Rihanna was the first.
+  utter_chitchat/ask_whatspossible:
+  - text: You can ask me about how to get started with Rasa, the difference between Rasa and Rasa X, subscribing to our newsletter or booking a sales call.
+  utter_chitchat/ask_wherefrom:
+  - text: My developers come from all over the world!
+  - text: I was taught not to give out my address on the internet.
+  - text: My address starts with github.com.
+  utter_chitchat/ask_whoami:
+  - text: I hope you are being yourself.
+  - text: Who do you think you are?
+  - text: Unfortunately I haven't been programmed with the amount of necessary philosophy knowledge to answer that.
+  utter_chitchat/ask_whoisit:
+  - text: I'm Pablo, the drug education bot! 🐦
+  utter_chitchat/nicetomeetyou:
+  - text: Likewise!
+  - text: Thank you. It is a pleasure to meet you as well!
+  - text: It is nice to meet you too!
+  - text: Pleased to meet you too!
+  - text: It's always a pleasure to meet new people!
+  - text: Nice to meet you too! Happy to be of help.
+  utter_chitchat/telljoke:
+  - text: Why are eggs not very much into jokes? - Because they could crack up.
+  - text: What's a tree's favorite drink? - Root beer!
+  - text: Why do the French like to eat snails so much? - They can't stand fast food.
+  - text: Why did the robot get angry? - Because someone kept pushing its buttons.
+  - text: What do you call a pirate droid? - Arrrr-2-D2
+  - text: Why did the robot cross the road? - Because he was programmed to.
+  utter_chitchat/confirm_presence:
+  - text: Sure am!
+  utter_faq/drugs_safe:
+  - text: That depends on which you are using and, most importantly, how you are using them...
+  utter_faq/drugs_legal:
+  - text: Probably but it depends on where you are and what drugs
+
+  utter_out_of_scope/non_english:
+  - text: No hablo english
+  utter_out_of_scope/other:
+  - text: I cant do that
+actions:
+- utter_chitchat
+- utter_faq
+- utter_greet
+- utter_out_of_scope
