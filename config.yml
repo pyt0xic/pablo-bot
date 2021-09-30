@@ -3,6 +3,8 @@ pipeline:
   - name: WhitespaceTokenizer
     token_pattern: (?u)\b\w+\b
   - name: RegexFeaturizer
+    use_word_boundaries: false
+    case_sensitive: false
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
 #    OOV_token: oov
@@ -11,7 +13,7 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
-    epochs: 100
+    epochs: 10
     ranking_length: 10
 #  - name: DucklingEntityExtractor
 #    url: http://localhost:8000
