@@ -1,3 +1,25 @@
+"""MIT License
+
+Copyright (c) 2021 Noah Saso
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE."""
+
 #!/usr/bin/env python3
 
 # downloads and exports data on all substances from psychonautwiki and tripsit factsheets, combining to form master list with standardized format
@@ -6,12 +28,12 @@
 
 import requests
 from bs4 import BeautifulSoup
-from time import time, sleep
 from python_graphql_client import GraphqlClient
 import json
 import os
 import re
 import traceback
+from intentGen import intentGen
 
 headers = {
     "Access-Control-Allow-Origin": "*",
@@ -552,7 +574,54 @@ for name in all_substance_names:
 
 # output
 
+substances_json = {}
+substances_json["substances"] = substance_data
+with open(f"ts_pn_data/substances_data.json", "w") as f:
+    json.dump(substances_json, fp=f, ensure_ascii=False, indent=2)
 
-substances_json = json.dumps(substance_data, indent=2, ensure_ascii=False)
-with open(f"ts_pn_data/substances_{time()}.json", "w") as f:
-    f.write(substances_json)
+
+substance_aliases = {}
+
+with open("data/lookups/substances.yml", "w") as fp:
+    # Lookup Table
+    fp.write("""version: "2.0"\nnlu:\n- lookup: substance\n  examples: |\n""")
+    for drug in substances_json["substances"]:
+        fp.write(f"    - {drug['name']}\n")
+        # Add aliases to lookup table too
+        for y in drug["aliases"]:
+            # Check for "or" in aliases and remove
+            if " or " in y:
+                aliases = y.split(" or ")
+                fp.write(f"    - {aliases[0]}\n")
+                fp.write(f"    - {aliases[1]}\n")
+            elif "or " in y:
+                aliases = y.split("or ")
+                fp.write(f"    - {aliases[1]}\n")
+            else:
+                fp.write(f"    - {y}\n")
+    fp.write("\n")
+    # Synonyms to map aliases to one entity
+    for drug in substances_json["substances"]:
+        # Skip adding synonym if there are no aliases
+        substance_aliases[drug["name"]] = []
+        if drug["aliases"] == []:
+            continue
+        fp.write(f"- synonym: {drug['name']}\n  examples: |\n")
+        for y in drug["aliases"]:
+            # Check for "or" in aliases and remove
+            if " or " in y:
+                aliases = y.split(" or ")
+                fp.write(f"    - {aliases[0]}\n")
+                fp.write(f"    - {aliases[1]}\n")
+                substance_aliases[drug["name"]].append(aliases[0])
+                substance_aliases[drug["name"]].append(aliases[1])
+            elif "or " in y:
+                aliases = y.split("or ")
+                fp.write(f"    - {aliases[1]}\n")
+                substance_aliases[drug["name"]].append(aliases[1])
+            else:
+                fp.write(f"    - {y}\n")
+                substance_aliases[drug["name"]].append(y)
+
+with open("ts_pn_data/generated_intents.yml", "w") as fp:
+    fp.write(intentGen(substance_aliases).what_is())

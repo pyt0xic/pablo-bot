@@ -1,0 +1,2128 @@
+- intent: what_is_substance
+  examples: |
+    - what's [1,4-Butanediol](substance)?
+    - [1,4-Butanediol](substance)?
+    - what's [1,4-b](substance)?
+    - [1,4-b](substance) is what?
+    - whats [1,4-bd](substance)
+    - whats [14bd](substance)
+    - what [bd](substance)
+    - what's [bdo](substance)?
+    - whats [butylene glycol](substance)
+    - what [one comma four](substance)
+    - what is [one four bee](substance)?
+    - what's [one four b-d-o](substance)?
+    - what is [1B-LSD](substance)?
+    - what is [1b](substance)?
+    - what [1CP-LSD](substance)
+    - what [1cp](substance)
+    - [1cp](substance) is what?
+    - what is [1cplsd](substance)
+    - [1cplsd](substance) is?
+    - whats [curie](substance)
+    - what's [1P-ETH-LAD](substance)?
+    - what is [1pethlad](substance)?
+    - what is [1P-LSD](substance)
+    - [1P-LSD](substance)?
+    - what is [1p](substance)?
+    - what is [1plsd](substance)
+    - what's [2-AI](substance)?
+    - what is [2-aminoindan](substance)
+    - [2-aminoindan](substance)?
+    - what is [2-aminoindane](substance)
+    - what [2ai](substance)
+    - [2ai](substance)?
+    - whats [2-Chloroephenidine](substance)
+    - what is [2-cl-ephenidine](substance)?
+    - what is [2chloroephenidine](substance)?
+    - what is [2clephenidine](substance)?
+    - whats [2-DPMP](substance)
+    - whats [2-desoxypiperadol](substance)
+    - what is [2dpmp](substance)?
+    - what is [desoxypipradol](substance)?
+    - whats [desoxypipradrol](substance)
+    - [desoxypipradrol](substance) is?
+    - what's [ivory wave](substance)?
+    - what is [2-FA](substance)?
+    - [2-FA](substance) is?
+    - whats [2-fluoroamphetamine](substance)
+    - what's [2-fmp](substance)?
+    - what [2fa](substance)
+    - what is [2-FDCK](substance)?
+    - [2-FDCK](substance) is?
+    - what is [2-fk](substance)
+    - what's [2-fl-2'-oxo-pcm](substance)?
+    - what is [2-fluorodeschloroketamine](substance)?
+    - what's [2-fluoroketamine](substance)?
+    - [2-fluoroketamine](substance) is what?
+    - what [2f-dck](substance)
+    - what's [2f-ket](substance)?
+    - whats [2f-ketamine](substance)
+    - whats [2fdck](substance)
+    - what's [2fket](substance)?
+    - [2fket](substance) is?
+    - what is [fluoroketamine](substance)?
+    - [fluoroketamine](substance)?
+    - what is [2-FEA](substance)
+    - [2-FEA](substance)?
+    - what's [2-fluoroethylamphetamine](substance)?
+    - what is [2-FMA](substance)
+    - [2-FMA](substance) is what?
+    - what is [2fma](substance)?
+    - what's [2-Me-DMT](substance)?
+    - [2-Me-DMT](substance)?
+    - what [2-MEC](substance)
+    - what is [2M2B](substance)?
+    - what is [2-methyl-2-butanol](substance)?
+    - [2-methyl-2-butanol](substance) is?
+    - what is [2-MA](substance)?
+    - [2-MA](substance) is?
+    - whats [2-MMC](substance)
+    - what is [2-MPPP](substance)?
+    - what is [n-piperidinecathinone](substance)
+    - what is [2-NMC](substance)?
+    - what is [2-PA](substance)
+    - what's [2-phenylacetamide](substance)?
+    - whats [2-PTA](substance)
+    - what is [2-(p-tolyl)acetamide](substance)
+    - what is [4-methyl-2-pa](substance)
+    - [4-methyl-2-pa](substance)?
+    - what's [25B-NBOH](substance)?
+    - what [25bnboh](substance)
+    - what is [2c-b-nboh](substance)
+    - what is [2cb-nboh](substance)
+    - what [nboh-2cb](substance)
+    - what is [25B-NBOMe](substance)
+    - [25B-NBOMe](substance)?
+    - what [25b](substance)
+    - [25b](substance) is?
+    - what's [25C-NBOH](substance)?
+    - what is [25C-NBOMe](substance)?
+    - what [25c](substance)
+    - what is [2c-c-nbome](substance)
+    - whats [2c-nbome](substance)
+    - whats [cimbi-82](substance)
+    - what is [nbome-2c-c](substance)?
+    - what's [25D-NBOMe](substance)?
+    - whats [25d](substance)
+    - what is [2c-d-nbome](substance)
+    - what's [25E-NBOMe](substance)?
+    - what is [25e](substance)?
+    - [25e](substance)?
+    - whats [25G-NBOMe](substance)
+    - what [25g](substance)
+    - [25g](substance) is what?
+    - what is [25gnbome](substance)?
+    - whats [25H-NBOMe](substance)
+    - what's [25-h-nbome](substance)?
+    - what's [25h](substance)?
+    - what is [25I-NBF](substance)
+    - what's [25I-NBMD](substance)?
+    - what's [25I-NBOH](substance)?
+    - what's [cimbi-27](substance)?
+    - what is [nboh-2ci](substance)
+    - [nboh-2ci](substance)?
+    - what's [25I-NBOMe](substance)?
+    - what [2-c-i-nbome](substance)
+    - [2-c-i-nbome](substance) is?
+    - what is [25-i](substance)?
+    - what's [25i](substance)?
+    - what's [cimbi-5](substance)?
+    - what [25iP-NBOMe](substance)
+    - [25iP-NBOMe](substance)?
+    - what is [25ip](substance)?
+    - whats [25N-NBOMe](substance)
+    - [25N-NBOMe](substance) is?
+    - what is [2-c-n-nbome](substance)
+    - what is [25n](substance)?
+    - [25n](substance)?
+    - what is [25P-NBOMe](substance)
+    - what is [25T-2-NBOMe](substance)?
+    - what's [25t2-nbome](substance)?
+    - whats [25T-4-NBOMe](substance)
+    - what's [25t4-nbome](substance)?
+    - what's [2C-B](substance)?
+    - what [2-cb](substance)
+    - what is [2cb](substance)?
+    - what [bees](substance)
+    - [bees](substance) is what?
+    - what is [nexus](substance)
+    - [nexus](substance)?
+    - what is [tusi](substance)?
+    - [tusi](substance) is?
+    - whats [2C-B-AN](substance)
+    - what is [2C-B-FLY](substance)?
+    - whats [2cb-fly](substance)
+    - what [2cbfly](substance)
+    - what [2C-B-FLY-NBOMe](substance)
+    - what is [2cbflynbome](substance)
+    - what [2C-C](substance)
+    - what [2cc](substance)
+    - what is [2C-D](substance)?
+    - [2C-D](substance) is what?
+    - what is [2c-m](substance)?
+    - whats [2cd](substance)
+    - what is [2cm](substance)
+    - whats [le-25](substance)
+    - what [2C-E](substance)
+    - what is [2ce](substance)
+    - [2ce](substance) is?
+    - what's [aquarust](substance)?
+    - [aquarust](substance) is what?
+    - what's [eternity](substance)?
+    - what is [2C-G](substance)?
+    - what [2cg](substance)
+    - what is [2C-H](substance)?
+    - what is [dmpea](substance)
+    - what [2C-I](substance)
+    - [2C-I](substance) is?
+    - what [2ci](substance)
+    - what's [2C-IP](substance)?
+    - what [2C-N](substance)
+    - what is [2cn](substance)?
+    - what [2C-P](substance)
+    - [2C-P](substance) is?
+    - what's [2cp](substance)?
+    - [2cp](substance) is?
+    - whats [2C-T](substance)
+    - what is [2ct](substance)?
+    - what's [tesseract](substance)?
+    - what is [2C-T-2](substance)
+    - [2C-T-2](substance) is what?
+    - whats [2ct2](substance)
+    - what [rosy](substance)
+    - what's [2C-T-21](substance)?
+    - whats [aurora](substance)
+    - what's [2C-T-4](substance)?
+    - whats [2-ct4](substance)
+    - [2-ct4](substance)?
+    - what is [2c-t4](substance)
+    - what is [2ct-4](substance)?
+    - whats [2ct4](substance)
+    - what is [2C-T-7](substance)
+    - [2C-T-7](substance) is what?
+    - what [2ct7](substance)
+    - what's [7th heaven](substance)?
+    - whats [beautiful](substance)
+    - what's [blue mystic](substance)?
+    - whats [3,4-CTMP](substance)
+    - what is [3,4-dichloromethylphenidate](substance)?
+    - what is [34ctmp](substance)?
+    - what [3,6-DMPM](substance)
+    - what's [3-CMC](substance)?
+    - what is [3cmc](substance)?
+    - what is [3-FA](substance)?
+    - what is [3fa](substance)
+    - what [pal-353](substance)
+    - [pal-353](substance) is?
+    - whats [3-FEA](substance)
+    - what [3-FMA](substance)
+    - what is [3fma](substance)
+    - what is [3-FMC](substance)
+    - [3-FMC](substance)?
+    - what's [3-FPM](substance)?
+    - what is [3-fph](substance)
+    - what [3f-p](substance)
+    - what is [3f-phenmetrazine](substance)?
+    - [3f-phenmetrazine](substance) is?
+    - what [3fp](substance)
+    - what [3fpm](substance)
+    - [3fpm](substance) is what?
+    - what is [pal-593](substance)
+    - what is [3-HO-PCE](substance)?
+    - what's [3hopce](substance)?
+    - what is [hydroxyeticyclidine](substance)?
+    - [hydroxyeticyclidine](substance) is?
+    - what is [3-HO-PCP](substance)
+    - what is [3hopcp](substance)?
+    - whats [hydroxyphencyclidine](substance)
+    - what is [3-MEC](substance)?
+    - what's [3-MeO-PCE](substance)?
+    - whats [3meopce](substance)
+    - [3meopce](substance) is?
+    - what's [methoxyeticyclidine](substance)?
+    - [methoxyeticyclidine](substance) is what?
+    - whats [methoxyieticyclidine](substance)
+    - what is [3-MeO-PCMO](substance)
+    - what is [3-MeO-PCP](substance)
+    - what [3-meo](substance)
+    - what's [3meopcp](substance)?
+    - what's [3-MeO-PCPR](substance)?
+    - whats [3-MeO-PCPY](substance)
+    - [3-MeO-PCPY](substance) is?
+    - what [3-MeOMC](substance)
+    - whats [3-MMC](substance)
+    - whats [3-meph](substance)
+    - what [3-mephedrone](substance)
+    - what is [3-methylmethcathinone](substance)?
+    - what [3methylmethcathinone](substance)
+    - what is [3mmc](substance)
+    - [3mmc](substance) is?
+    - whats [metaphedrone](substance)
+    - what [3-OH-PHENAZEPAM](substance)
+    - what is [3-ho-p](substance)?
+    - what [3-ho-phenazepam](substance)
+    - what [3-hydroxyphenazepam](substance)
+    - what's [3-oh-p](substance)?
+    - [3-oh-p](substance)?
+    - what is [3hop](substance)
+    - what is [3hophenazepam](substance)
+    - what is [3ohp](substance)?
+    - what's [3ohphenazepam](substance)?
+    - whats [3C-E](substance)
+    - [3C-E](substance) is what?
+    - what's [3c-escaline](substance)?
+    - [3c-escaline](substance) is?
+    - whats [3C-P](substance)
+    - what is [3cp](substance)
+    - what's [4,4-DMAR](substance)?
+    - what is [4,4-dmap](substance)?
+    - what's [serotoni](substance)?
+    - [serotoni](substance) is what?
+    - what is [4-AcO-DALT](substance)?
+    - what's [4acodalt](substance)?
+    - what [4-AcO-DET](substance)
+    - [4-AcO-DET](substance) is?
+    - whats [4-acetoxy-det](substance)
+    - what is [ethacetin](substance)?
+    - what [ethylacybin](substance)
+    - what is [4-AcO-DiPT](substance)?
+    - [4-AcO-DiPT](substance)?
+    - what is [4-acetoxy-dipt](substance)?
+    - [4-acetoxy-dipt](substance) is?
+    - what [4acodipt](substance)
+    - what is [aces](substance)?
+    - whats [ipracetin](substance)
+    - what's [iprocetyl](substance)?
+    - what's [4-AcO-DMT](substance)?
+    - whats [4-acetoxy-dmt](substance)
+    - what is [4-aco](substance)
+    - what [4acodmt](substance)
+    - [4acodmt](substance) is what?
+    - what [o-acetylpsilocin](substance)
+    - [o-acetylpsilocin](substance) is?
+    - what's [psilacetin](substance)?
+    - what is [synthetic mushrooms](substance)?
+    - what [4-AcO-DPT](substance)
+    - what is [4acodpt](substance)
+    - whats [4-AcO-MET](substance)
+    - what's [4-acetoxy-met](substance)?
+    - what is [4acomet](substance)?
+    - what [metacetin](substance)
+    - what [o-acetylmetocin](substance)
+    - [o-acetylmetocin](substance) is what?
+    - what's [4-AcO-MiPT](substance)?
+    - whats [4acomipt](substance)
+    - [4acomipt](substance)?
+    - what is [mipracetin](substance)?
+    - what is [o-acetylmiprocin](substance)
+    - [o-acetylmiprocin](substance) is what?
+    - what is [4-Benzylpiperidine](substance)
+    - what is [4-pmpd](substance)?
+    - [4-pmpd](substance) is?
+    - whats [4-CBC](substance)
+    - what is [4-CHLORODIAZEPAM](substance)?
+    - what is [4'-chlorodiazepam](substance)?
+    - what's [ro5-4864](substance)?
+    - what [4-CIC](substance)
+    - what's [4-CMA](substance)?
+    - what [4-CMC](substance)
+    - what [4cmc](substance)
+    - [4cmc](substance) is?
+    - what is [4-EMC](substance)
+    - what is [4-ethylmethcathinone](substance)
+    - whats [4-EPD](substance)
+    - [4-EPD](substance) is what?
+    - whats [4-ethylpentedrone](substance)
+    - what is [4-FA](substance)?
+    - whats [4-fluoroamphetamine](substance)
+    - what is [4-fmp](substance)?
+    - whats [4fa](substance)
+    - whats [flux](substance)
+    - what's [pal-303](substance)?
+    - what is [4-FEA](substance)
+    - what is [4-fluoroethylamphetamine](substance)?
+    - what [4-Fluoroethylphenidate](substance)
+    - what [4-feph](substance)
+    - what [4f-eph](substance)
+    - whats [4-Fluoromethylphenidate](substance)
+    - whats [4-fl-mph](substance)
+    - what [4-fluoro-mph](substance)
+    - what is [4-fmph](substance)?
+    - what [4f-mph](substance)
+    - [4f-mph](substance) is what?
+    - what is [4fmph](substance)
+    - what's [4-Fluoropentedrone](substance)?
+    - what's [4-f-pentedrone](substance)?
+    - what is [4-fpd](substance)
+    - what [4f-pentedrone](substance)
+    - whats [4-FMA](substance)
+    - [4-FMA](substance)?
+    - what's [4-fluromethamphetamine](substance)?
+    - what is [4fma](substance)
+    - what [4-FMC](substance)
+    - what's [4-fluoromethcathinone](substance)?
+    - [4-fluoromethcathinone](substance) is?
+    - what [4fmc](substance)
+    - what is [flephedrone](substance)?
+    - [flephedrone](substance)?
+    - what [fpephedrone](substance)
+    - what [4-FPM](substance)
+    - whats [4-FPP](substance)
+    - what is [4-HO-DET](substance)?
+    - [4-HO-DET](substance)?
+    - what is [4-hydroxy-det](substance)
+    - what is [4hodet](substance)
+    - what is [cz-74](substance)?
+    - what is [ethocin](substance)?
+    - what [4-HO-DiPT](substance)
+    - what's [iprocin](substance)?
+    - what's [4-HO-DPT](substance)?
+    - whats [4-hydroxy-n](substance)
+    - what's [4hodpt](substance)?
+    - what is [n-dipropyltryptamine](substance)?
+    - what [procin](substance)
+    - what is [4-HO-EPT](substance)?
+    - [4-HO-EPT](substance) is?
+    - what is [eprocin](substance)
+    - what is [4-HO-MCPT](substance)?
+    - what [4-HO-MET](substance)
+    - [4-HO-MET](substance) is?
+    - whats [4homet](substance)
+    - what's [colour](substance)?
+    - what's [ethocin](substance)?
+    - [ethocin](substance) is?
+    - what is [homet](substance)?
+    - what [methylcybin](substance)
+    - whats [metocin](substance)
+    - what's [4-HO-MiPT](substance)?
+    - what [4-ho](substance)
+    - what's [4homipt](substance)?
+    - what is [ho-mipt](substance)?
+    - what is [homipt](substance)
+    - [homipt](substance) is?
+    - what is [miprocin](substance)
+    - what is [4-HO-MPMI](substance)
+    - what is [lucigenol](substance)
+    - [lucigenol](substance)?
+    - whats [4-HO-MPT](substance)
+    - what is [4hompt](substance)?
+    - what's [meprocin](substance)?
+    - what [4-MEC](substance)
+    - [4-MEC](substance) is what?
+    - what is [4-methylethcathinone](substance)
+    - what is [4mec](substance)?
+    - whats [4-MeO-Butyrfentanyl](substance)
+    - [4-MeO-Butyrfentanyl](substance) is?
+    - whats [4-meo-bf](substance)
+    - what is [4-MeO-MiPT](substance)?
+    - what is [4-MeO-PCP](substance)?
+    - [4-MeO-PCP](substance)?
+    - what's [4meopcp](substance)?
+    - what is [methoxydine](substance)?
+    - what's [4-METHYLAMINOREX](substance)?
+    - [4-METHYLAMINOREX](substance) is what?
+    - what is [4-Methylmethylphenidate](substance)
+    - what is [4-me-tmp](substance)?
+    - what [4-metmp](substance)
+    - [4-metmp](substance) is?
+    - whats [4-mmph](substance)
+    - what is [4-MPD](substance)?
+    - what is [4-MTA](substance)
+    - what's [4-methylthioamphetamine](substance)?
+    - what [4F-EPH](substance)
+    - what is [4feph](substance)
+    - [4feph](substance) is?
+    - what's [4F-MPH](substance)?
+    - whats [4F-NEB](substance)
+    - what is [4F-PHP](substance)
+    - what [4F-PVP](substance)
+    - what is [4f-a-pvp](substance)
+    - [4f-a-pvp](substance)?
+    - what is [pfpvp](substance)?
+    - what's [5-APB](substance)?
+    - what's [5apb](substance)?
+    - whats [5-APDB](substance)
+    - what is [5-APDI](substance)?
+    - what is [iap](substance)?
+    - what is [5-BPDI](substance)?
+    - what's [5-Bromo-DMT](substance)?
+    - whats [5-DBFPV](substance)
+    - what is [5-EAPB](substance)
+    - what is [5eapb](substance)
+    - what's [5-HTP](substance)?
+    - what [5-hydroxytryptophan](substance)
+    - what [5htp](substance)
+    - [5htp](substance) is what?
+    - whats [and triptum](substance)
+    - what's [cincofarm](substance)?
+    - what is [l-tryptophan](substance)
+    - whats [levothym](substance)
+    - what's [levotonine](substance)?
+    - what's [oxitriptan](substance)?
+    - what is [oxyfan](substance)?
+    - [oxyfan](substance) is what?
+    - what [telesol](substance)
+    - what is [tript-oh](substance)
+    - whats [tryptophan](substance)
+    - what is [5-IAI](substance)
+    - what is [5iai](substance)
+    - what is [5-IT](substance)
+    - what is [5-api](substance)?
+    - [5-api](substance)?
+    - what's [5-MAPB](substance)?
+    - [5-MAPB](substance)?
+    - what is [5mapb](substance)
+    - what is [5-MAPDB](substance)?
+    - [5-MAPDB](substance) is what?
+    - what is [5mapdb](substance)?
+    - [5mapdb](substance)?
+    - whats [5-MeO-αMT](substance)
+    - what [5meoamt](substance)
+    - what [5-MeO-DALT](substance)
+    - what is [5meodalt](substance)?
+    - what [foxtrot](substance)
+    - [foxtrot](substance) is?
+    - what's [5-MeO-DiBF](substance)?
+    - whats [5-MeO-DiPT](substance)
+    - what's [5meodipt](substance)?
+    - what [foxy](substance)
+    - what [foxy methoxy](substance)
+    - what's [foxy-methoxy](substance)?
+    - what is [5-MeO-DMT](substance)?
+    - [5-MeO-DMT](substance)?
+    - what is [5-medmt](substance)?
+    - what's [5-meo](substance)?
+    - [5-meo](substance) is?
+    - what [5meo](substance)
+    - whats [5meodmt](substance)
+    - what [the god molecule](substance)
+    - what is [toads](substance)
+    - what is [5-MeO-DPT](substance)
+    - [5-MeO-DPT](substance)?
+    - what is [5meodpt](substance)?
+    - [5meodpt](substance) is?
+    - whats [5-MeO-EiPT](substance)
+    - what is [5meoeipt](substance)
+    - whats [5-MeO-MALT](substance)
+    - what is [5-MeO-MET](substance)
+    - what is [5-MeO-MiPT](substance)
+    - whats [5meo-mipt](substance)
+    - what's [5meomipt](substance)?
+    - what's [moxy](substance)?
+    - what is [5-MeO-NIPT](substance)
+    - what's [5meonipt](substance)?
+    - [5meonipt](substance) is what?
+    - what's [5-MeO-PYR-T](substance)?
+    - [5-MeO-PYR-T](substance) is?
+    - whats [5-Methylethylone](substance)
+    - whats [5-me](substance)
+    - what's [5-methyl-ethylone](substance)?
+    - [5-methyl-ethylone](substance)?
+    - whats [5-PPDI](substance)
+    - what's [5F-AKB48](substance)?
+    - what's [5f-apinaca](substance)?
+    - what's [5fakb48](substance)?
+    - what's [5fapinaca](substance)?
+    - what is [5F-PB-22](substance)?
+    - what is [6-APB](substance)?
+    - what is [6apb](substance)
+    - what [benzofury](substance)
+    - [benzofury](substance) is?
+    - whats [6-APDB](substance)
+    - what's [4-desoxy-mda](substance)?
+    - what [6-EAPB](substance)
+    - what [6-MAPB](substance)
+    - what is [6-MDDM](substance)?
+    - whats [6-methylenedihydrodesoxymorphine](substance)
+    - what is [A-PHP](substance)
+    - [A-PHP](substance) is?
+    - whats [alpha-php](substance)
+    - what's [aphp](substance)?
+    - whats [pv-7](substance)
+    - [pv-7](substance) is what?
+    - whats [pv7](substance)
+    - what is [α-php](substance)
+    - [α-php](substance)?
+    - what's [αphp](substance)?
+    - what is [A-PIHP](substance)?
+    - what [pihp](substance)
+    - whats [A-PVP](substance)
+    - what is [alpha-pvp](substance)?
+    - [alpha-pvp](substance)?
+    - what is [alpha-pyrrolidinopentiophenone](substance)?
+    - what [apvp](substance)
+    - whats [flakka](substance)
+    - whats [flocka](substance)
+    - what [o-2387](substance)
+    - what [prolintanone](substance)
+    - whats [α-pvp](substance)
+    - what [αpvp](substance)
+    - [αpvp](substance) is what?
+    - what is [β-ketone-prolintane](substance)
+    - [β-ketone-prolintane](substance) is?
+    - what's [α-PVT](substance)?
+    - what is [apvt](substance)?
+    - [apvt](substance)?
+    - whats [AB-CHMINACA](substance)
+    - what's [AB-FUBINACA](substance)?
+    - what is [ab-fub](substance)?
+    - what's [ab-fubi](substance)?
+    - what [Acetildenafil](substance)
+    - what [Acetylfentanyl](substance)
+    - what's [a-f](substance)?
+    - whats [acetyl-fentanyl](substance)
+    - whats [Acrylfentanyl](substance)
+    - what's [Adderall](substance)?
+    - what is [adderal](substance)?
+    - [adderal](substance) is what?
+    - what's [aderal](substance)?
+    - [aderal](substance) is what?
+    - whats [aderall](substance)
+    - what is [amphetamine](substance)
+    - whats [d-amph](substance)
+    - [d-amph](substance) is what?
+    - what is [d-amphetamine](substance)?
+    - what [pep](substance)
+    - what is [speed](substance)?
+    - what's [Adinazolam](substance)?
+    - what is [deracyn](substance)?
+    - what's [Adrafinil](substance)?
+    - what is [olmifon](substance)?
+    - what is [αET](substance)
+    - whats [a-et](substance)
+    - what [a-ethyltryptamine](substance)
+    - [a-ethyltryptamine](substance) is?
+    - what is [alpha-ethyl-tryptamine](substance)
+    - what is [Afloqualone](substance)
+    - what is [AH-7921](substance)
+    - what's [ah7921](substance)?
+    - [ah7921](substance) is?
+    - whats [AL-LAD](substance)
+    - [AL-LAD](substance) is what?
+    - what is [aladdin](substance)
+    - what [allad](substance)
+    - what's [Alcohol](substance)?
+    - what is [beer](substance)
+    - what's [booze](substance)?
+    - what's [ethanol](substance)?
+    - what is [etoh](substance)
+    - what is [hooch](substance)?
+    - what [ALD-52](substance)
+    - what [1-acetyl-lsd](substance)
+    - whats [1a-lad](substance)
+    - whats [1a-lsd](substance)
+    - whats [1alsd](substance)
+    - what [ald52](substance)
+    - what is [orange sunshine](substance)?
+    - what [Aleph](substance)
+    - what is [dot](substance)
+    - what is [para-dot](substance)?
+    - what is [ALEPH-2](substance)?
+    - whats [aleph2](substance)
+    - [aleph2](substance) is?
+    - what's [dot-2](substance)?
+    - what is [dot2](substance)
+    - what [Allobarbital](substance)
+    - [Allobarbital](substance)?
+    - whats [Allylescaline](substance)
+    - [Allylescaline](substance) is what?
+    - what is [al](substance)?
+    - [al](substance) is?
+    - what [Alpha-GPC](substance)
+    - what is [choline alfoscerate](substance)
+    - what is [l-alpha glycerylphosphorylcholine](substance)
+    - what is [Alprazolam](substance)?
+    - [Alprazolam](substance) is?
+    - whats [ksalol](substance)
+    - what is [niravam](substance)
+    - what [prazolam](substance)
+    - what is [xanax](substance)
+    - what [AM-2201](substance)
+    - what's [am2201](substance)?
+    - whats [Amanita muscaria](substance)
+    - whats [fly agaric](substance)
+    - what is [fly amanita](substance)?
+    - what is [Amfecloral](substance)?
+    - what is [Amfonelic acid](substance)?
+    - whats [aa](substance)
+    - whats [afa](substance)
+    - [afa](substance)?
+    - whats [win25978](substance)
+    - whats [Aminorex](substance)
+    - what is [Aminotadalafil](substance)?
+    - what is [Amobarbital](substance)?
+    - what is [Amphetamine](substance)
+    - what [amfetamine](substance)
+    - whats [amph](substance)
+    - whats [amphetamin](substance)
+    - [amphetamin](substance) is?
+    - what [amphetamines](substance)
+    - what's [hearts](substance)?
+    - what is [pep](substance)?
+    - whats [pepp](substance)
+    - what is [speed](substance)
+    - what [ΑMT](substance)
+    - what is [alpha-methyltryptamine](substance)?
+    - [alpha-methyltryptamine](substance) is what?
+    - what is [alphamethyltryptamine](substance)
+    - whats [amt](substance)
+    - what is [indopan](substance)?
+    - what's [monase](substance)?
+    - whats [Anadenanthera peregrina](substance)
+    - [Anadenanthera peregrina](substance)?
+    - what is [cohoba](substance)?
+    - whats [jopo](substance)
+    - what is [yopo](substance)?
+    - what is [Aniracetam](substance)
+    - [Aniracetam](substance) is what?
+    - what [Paracetamol](substance)
+    - what is [acetaminophen](substance)
+    - what is [tylenol](substance)?
+    - what's [APICA](substance)?
+    - what is [2ne1](substance)
+    - [2ne1](substance)?
+    - what is [sdb-001](substance)
+    - what is [Armodafinil](substance)?
+    - what is [artvigil](substance)?
+    - what's [neoresotyl](substance)?
+    - whats [nuvigil](substance)
+    - what [r-modawake](substance)
+    - what is [waklert](substance)
+    - what [Ashwagandha](substance)
+    - what's [Aspirin](substance)?
+    - [Aspirin](substance)?
+    - whats [acetylsalicylate](substance)
+    - what is [Atomoxetine](substance)
+    - what is [strattera](substance)
+    - what's [Atropa belladonna](substance)?
+    - what is [belladonna](substance)?
+    - [belladonna](substance)?
+    - what is [deadly nightshade](substance)?
+    - [deadly nightshade](substance)?
+    - what's [Ayahuasca](substance)?
+    - what [aya](substance)
+    - what [caapi](substance)
+    - what's [cipó](substance)?
+    - what [hoasca](substance)
+    - whats [natem](substance)
+    - what is [pharmahuasca](substance)
+    - [pharmahuasca](substance) is?
+    - what's [shori](substance)?
+    - what is [vegetal](substance)?
+    - [vegetal](substance) is?
+    - what is [yage](substance)?
+    - whats [yagé](substance)
+    - what is [yajé](substance)
+    - what [Baclofen](substance)
+    - what [gablofen](substance)
+    - [gablofen](substance)?
+    - what is [Banisteriopsis caapi](substance)
+    - what is [ayahuasca](substance)
+    - what is [caapi](substance)?
+    - whats [yagé](substance)
+    - what [Barbital](substance)
+    - what [Bentazepam](substance)
+    - what [thiadipone](substance)
+    - what is [tiadipona](substance)
+    - [tiadipona](substance)?
+    - what [BENZODIOXOLE-FENTANYL](substance)
+    - what [Benzydamine](substance)
+    - what is [tantum](substance)
+    - what's [Βk-2C-B](substance)?
+    - what is [b-k-2-c-b](substance)?
+    - [b-k-2-c-b](substance)?
+    - whats [b-k-2cb](substance)
+    - [b-k-2cb](substance)?
+    - what is [b-k2-c-b](substance)?
+    - what is [b-k2-cb](substance)?
+    - what's [b-k2cb](substance)?
+    - [b-k2cb](substance) is?
+    - whats [beta-keto 2c-b](substance)
+    - what is [bk-2-cb](substance)?
+    - what is [bk-2c-b](substance)?
+    - what [bk-2cb](substance)
+    - what [bk2cb](substance)
+    - what [βk-2C-I](substance)
+    - what's [βk-IVP](substance)?
+    - what's [BOD](substance)?
+    - [BOD](substance) is?
+    - what [Bromadol](substance)
+    - what's [bdpc](substance)?
+    - what's [Bromantane](substance)?
+    - what's [bromantan](substance)?
+    - whats [ladasten](substance)
+    - [ladasten](substance) is?
+    - what is [Bromazepam](substance)
+    - [Bromazepam](substance)?
+    - what [brazepam](substance)
+    - [brazepam](substance)?
+    - what [lectopam](substance)
+    - what's [lexilium](substance)?
+    - what [lexotan](substance)
+    - what is [lexotanil](substance)
+    - [lexotanil](substance)?
+    - what is [Bromazolam](substance)?
+    - what is [xli-268](substance)
+    - whats [xli268](substance)
+    - what is [Bromo-DragonFLY](substance)
+    - [Bromo-DragonFLY](substance) is what?
+    - what is [b-dfly](substance)
+    - what is [bdfly](substance)?
+    - what [bromo-d-fly](substance)
+    - what is [bromo-dragon-fly](substance)?
+    - [bromo-dragon-fly](substance) is what?
+    - what [dob-dragonfly](substance)
+    - what [dragonfly](substance)
+    - what is [Brotizolam](substance)?
+    - what is [lendormin](substance)?
+    - what is [Bufotenin](substance)?
+    - [Bufotenin](substance) is?
+    - what's [5-ho-dmt](substance)?
+    - what [Buphedrone](substance)
+    - what's [Buprenorphine](substance)?
+    - [Buprenorphine](substance)?
+    - what [addnok](substance)
+    - what is [bupe](substance)
+    - what's [buprenex](substance)?
+    - whats [butrans](substance)
+    - what's [cizdol](substance)?
+    - [cizdol](substance)?
+    - what is [suboxone](substance)
+    - [suboxone](substance) is?
+    - whats [subs](substance)
+    - what is [subutex](substance)
+    - what is [transtec](substance)
+    - what is [Bupropion](substance)
+    - what is [amfebutamone](substance)?
+    - what's [wellbutrin](substance)?
+    - what is [zyban](substance)
+    - [zyban](substance) is what?
+    - what is [Butylone](substance)
+    - what [b1](substance)
+    - what's [bk-mbdb](substance)?
+    - whats [bk-methyl-j](substance)
+    - whats [Butyrfentanyl](substance)
+    - what is [b-f](substance)?
+    - whats [bf](substance)
+    - [bf](substance) is what?
+    - whats [BZP](substance)
+    - whats [C30-NBOMe](substance)
+    - [C30-NBOMe](substance)?
+    - what's [Caffeine](substance)?
+    - [Caffeine](substance) is?
+    - what [coffee](substance)
+    - what is [Cake](substance)?
+    - what [caky](substance)
+    - [caky](substance) is?
+    - what is [cokoo](substance)?
+    - [cokoo](substance) is what?
+    - what is [Camazepam](substance)
+    - what is [albego](substance)?
+    - what is [limpidon](substance)?
+    - whats [paxor](substance)
+    - what is [Cannabidiol](substance)
+    - what's [cbd](substance)?
+    - what's [epidiolex](substance)?
+    - what [Cannabis](substance)
+    - [Cannabis](substance) is?
+    - what is [bud](substance)?
+    - what is [dagga](substance)?
+    - [dagga](substance)?
+    - what is [grass](substance)
+    - whats [green](substance)
+    - [green](substance)?
+    - whats [hash](substance)
+    - what's [herb](substance)?
+    - whats [marijuana](substance)
+    - what is [mary jane](substance)?
+    - whats [pot](substance)
+    - what's [thc](substance)?
+    - what is [tree](substance)?
+    - what is [weed](substance)
+    - what is [Carisoprodol](substance)?
+    - [Carisoprodol](substance)?
+    - whats [soma](substance)
+    - what [Phenylpiracetam](substance)
+    - what is [carphedon](substance)
+    - what's [phenotropil](substance)?
+    - [phenotropil](substance) is what?
+    - what is [Centrophenoxine](substance)
+    - whats [lucidril](substance)
+    - what is [meclofenoxate](substance)
+    - what [Changa](substance)
+    - what is [Chloral betaine](substance)
+    - what is [Chloroform](substance)?
+    - what [Choline bitartrate](substance)
+    - whats [choline](substance)
+    - what is [Tadalafil](substance)
+    - what is [Cinolazepam](substance)
+    - what's [geroderm](substance)?
+    - [geroderm](substance)?
+    - what's [Citalopram](substance)?
+    - [Citalopram](substance) is?
+    - whats [celexa](substance)
+    - what is [cipramil](substance)
+    - what [Citicoline](substance)
+    - what [Clobazam](substance)
+    - [Clobazam](substance) is what?
+    - what [frisium](substance)
+    - what is [Clomethiazole](substance)?
+    - what is [Clonazepam](substance)
+    - [Clonazepam](substance) is what?
+    - what is [k-pins](substance)
+    - [k-pins](substance) is what?
+    - what is [klonopin](substance)?
+    - what's [kpin](substance)?
+    - whats [rivotril](substance)
+    - what is [Clonazolam](substance)
+    - what is [c-lam](substance)?
+    - what is [clam](substance)?
+    - what is [clonitrazolam](substance)?
+    - [clonitrazolam](substance) is?
+    - what is [Clonidine](substance)?
+    - [Clonidine](substance)?
+    - what [catapres](substance)
+    - what is [catapres-tts](substance)
+    - what is [duraclon](substance)?
+    - what is [kapvay](substance)?
+    - what's [nexiclon xr](substance)?
+    - [nexiclon xr](substance) is?
+    - whats [Cloniprazepam](substance)
+    - [Cloniprazepam](substance)?
+    - whats [Clonitazene](substance)
+    - what [Clorazepate](substance)
+    - whats [novo-clopate](substance)
+    - [novo-clopate](substance) is?
+    - what is [tranxene](substance)?
+    - whats [tranzene](substance)
+    - what [Clotiazepam](substance)
+    - what is [clozan](substance)
+    - whats [distensan](substance)
+    - what is [rize](substance)?
+    - what [rizen](substance)
+    - whats [trecalmo](substance)
+    - what is [veratran](substance)?
+    - whats [Cloxazolam](substance)
+    - what is [Cocaine](substance)
+    - whats [blow](substance)
+    - what's [coke](substance)?
+    - [coke](substance) is?
+    - whats [crack](substance)
+    - what [girl](substance)
+    - what's [nose candy](substance)?
+    - what's [snow](substance)?
+    - whats [white](substance)
+    - what [Codeine](substance)
+    - what is [Coluracetam](substance)?
+    - what is [Coronaridine](substance)?
+    - what is [Creatine](substance)?
+    - what's [methylguanidoacetic acid](substance)?
+    - what's [n-carbamimidoyl-n-methylglycine](substance)?
+    - what's [CRL-40-940](substance)?
+    - whats [bisfluoromodafinil](substance)
+    - [bisfluoromodafinil](substance)?
+    - what is [flmodafinil](substance)?
+    - what's [lauflumide](substance)?
+    - [lauflumide](substance) is?
+    - whats [CRL-40-941](substance)
+    - [CRL-40-941](substance) is?
+    - whats [fladrafinil](substance)
+    - what [fluoromodafinil](substance)
+    - what is [Cyclazodone](substance)?
+    - what's [Cyclizine](substance)?
+    - whats [Cyclo-Methiodrone](substance)
+    - what is [Cyclobenzaprine](substance)
+    - what is [apo-cyclobenzaprin](substance)?
+    - [apo-cyclobenzaprin](substance)?
+    - what is [fexmid](substance)
+    - what is [flexeril](substance)
+    - what is [novo-cycloprine](substance)
+    - what is [CYCLOPENTYL-FENTANYL](substance)?
+    - whats [cp-f](substance)
+    - [cp-f](substance)?
+    - what is [cpf](substance)
+    - whats [Cyclopropylmescaline](substance)
+    - what is [4-cyclopropylmethoxy-3](substance)?
+    - what is [cpm](substance)?
+    - what [D2PM](substance)
+    - what's [diphenylprolinol](substance)?
+    - what's [DALT](substance)?
+    - what is [diallyltryptamine](substance)
+    - [diallyltryptamine](substance)?
+    - what's [n,n-diallyltryptamine](substance)?
+    - [n,n-diallyltryptamine](substance) is what?
+    - what is [Datura](substance)
+    - what is [jimson weed](substance)?
+    - what is [Datura (botany)](substance)
+    - [Datura (botany)](substance) is?
+    - what is [angel's trumpets](substance)
+    - whats [devil's trumpets](substance)
+    - whats [devil's weed](substance)
+    - what is [hell's bells](substance)
+    - whats [jimsonweed](substance)
+    - what's [moonflowers](substance)?
+    - [moonflowers](substance) is what?
+    - what's [thorn-apple](substance)?
+    - whats [DB-MDBP](substance)
+    - what [Dehydroxyfluorafinil](substance)
+    - whats [modafiendz](substance)
+    - whats [Delorazepam](substance)
+    - what's [nordiclazepam](substance)?
+    - what is [Pethidine](substance)?
+    - what is [demerol](substance)
+    - [demerol](substance) is?
+    - what is [dolantin](substance)?
+    - what [dolcontral](substance)
+    - [dolcontral](substance) is what?
+    - what [meperidine](substance)
+    - whats [Deschloroetizolam](substance)
+    - what's [etizolam-2](substance)?
+    - what is [Deschloroketamine](substance)?
+    - what is [2'-oxo-pcm](substance)?
+    - what is [2-oxo-pcm](substance)?
+    - whats [dck](substance)
+    - what is [dxe](substance)?
+    - [dxe](substance) is?
+    - what is [o-pcm](substance)?
+    - whats [opcm](substance)
+    - whats [Desmethylflunitrazepam](substance)
+    - [Desmethylflunitrazepam](substance) is?
+    - what [fonazepam](substance)
+    - what is [norflunitrazepam](substance)
+    - [norflunitrazepam](substance) is?
+    - what [ro05-4435](substance)
+    - whats [Desomorphine](substance)
+    - what is [krok](substance)?
+    - [krok](substance) is what?
+    - whats [krokodil](substance)
+    - whats [DET](substance)
+    - [DET](substance)?
+    - what is [diethyltryptamine](substance)?
+    - whats [Dexedrine](substance)
+    - [Dexedrine](substance)?
+    - what's [dexamfetamine](substance)?
+    - what is [dextroamphetamine](substance)?
+    - what's [DXM](substance)?
+    - [DXM](substance) is what?
+    - what is [delsym](substance)?
+    - whats [dex](substance)
+    - whats [dexalone](substance)
+    - what [dextromethorphan](substance)
+    - [dextromethorphan](substance)?
+    - what [dm](substance)
+    - [dm](substance) is?
+    - whats [dmo](substance)
+    - whats [duract](substance)
+    - what's [robitussin](substance)?
+    - what's [robo](substance)?
+    - what [robotussin](substance)
+    - what [syrup](substance)
+    - what is [Dextropropoxyphene](substance)
+    - what is [capadex](substance)
+    - whats [co-proxamol](substance)
+    - what's [coproxamol](substance)?
+    - whats [darvocet](substance)
+    - what [darvon](substance)
+    - what is [di-gesic](substance)
+    - what's [propoxyphene](substance)?
+    - [propoxyphene](substance) is?
+    - what is [Diazepam](substance)?
+    - what is [apaurin](substance)
+    - [apaurin](substance) is?
+    - what is [diastat](substance)
+    - what is [mother's little helper](substance)?
+    - [mother's little helper](substance) is?
+    - what's [valium](substance)?
+    - [valium](substance) is what?
+    - whats [Dibutylone](substance)
+    - what [RTI-111](substance)
+    - what [dichloropane](substance)
+    - [dichloropane](substance) is what?
+    - what is [Diclazepam](substance)
+    - what is [Diclofensine](substance)
+    - what is [ro8-4650](substance)
+    - what is [Diethyl ether](substance)?
+    - what is [ether](substance)?
+    - [ether](substance) is?
+    - whats [Dihydrocodeine](substance)
+    - [Dihydrocodeine](substance)?
+    - what's [dhc](substance)?
+    - what is [Dimemebfe](substance)?
+    - what is [5-meo-bfe](substance)?
+    - whats [Dimethylone](substance)
+    - what [DPH](substance)
+    - what is [benadryl](substance)?
+    - [benadryl](substance) is what?
+    - whats [diphenhydramine](substance)
+    - whats [nytol](substance)
+    - what [sominex](substance)
+    - [sominex](substance) is?
+    - what is [unisom sleepmelts](substance)?
+    - what is [zzzquil](substance)?
+    - what's [Diphenidine](substance)?
+    - what [dpd](substance)
+    - [dpd](substance) is?
+    - what [Dipipanone](substance)
+    - what is [diconal](substance)
+    - what is [DiPT](substance)?
+    - what's [diisopropyltryptamine](substance)?
+    - what is [DMAA](substance)?
+    - whats [DMT](substance)
+    - whats [dimethyltryptamine](substance)
+    - what is [dmitry](substance)
+    - what's [n,n-dmt](substance)?
+    - what [the glory](substance)
+    - [the glory](substance)?
+    - what is [the spirit molecule](substance)
+    - [the spirit molecule](substance) is?
+    - what [DOB](substance)
+    - what's [brolamfetamine](substance)?
+    - [brolamfetamine](substance) is?
+    - what is [bromo-dma](substance)
+    - whats [DOC](substance)
+    - [DOC](substance)?
+    - what is [DOET](substance)?
+    - [DOET](substance) is?
+    - what's [doe](substance)?
+    - what [DOI](substance)
+    - [DOI](substance)?
+    - what is [DOIP](substance)?
+    - what is [DOM](substance)?
+    - what's [and peace)](substance)?
+    - what [stp](substance)
+    - what is [stp (serenity](substance)?
+    - what is [tranquility](substance)?
+    - whats [DON](substance)
+    - [DON](substance) is?
+    - what's [DOPR](substance)?
+    - what [Doxylamine](substance)
+    - what is [DPT](substance)
+    - what [dipropyltryptamine](substance)
+    - [dipropyltryptamine](substance) is?
+    - whats [the light](substance)
+    - what [Dimenhydrinate](substance)
+    - what [gravol](substance)
+    - what is [Efavirenz](substance)?
+    - what is [sustiva](substance)
+    - what is [EFLEA](substance)
+    - [EFLEA](substance) is?
+    - what is [Ephedrine](substance)
+    - what [Ephenidine](substance)
+    - what is [nedpa](substance)?
+    - [nedpa](substance)?
+    - what is [Ephylone](substance)
+    - what [bk-ebdp](substance)
+    - what [bk-ethyl-k](substance)
+    - what [βk-ebdp](substance)
+    - what is [EPT](substance)?
+    - what is [ethylpropyltryptamine](substance)?
+    - whats [n,n-ethylpropyltryptamine](substance)
+    - what is [Escaline](substance)?
+    - whats [Escitalopram](substance)
+    - [Escitalopram](substance) is?
+    - what is [cipralex](substance)?
+    - what is [lexapro](substance)
+    - what is [Estazolam](substance)?
+    - whats [elprazolam](substance)
+    - what [eurodin](substance)
+    - whats [prosom](substance)
+    - what is [Eszopiclone](substance)?
+    - what [ETH-CAT](substance)
+    - whats [e-cat](substance)
+    - what [ethcathinone](substance)
+    - what [ethylcathinone](substance)
+    - [ethylcathinone](substance)?
+    - what's [ethylpropion](substance)?
+    - what's [ETH-LAD](substance)?
+    - what is [ethlad](substance)
+    - what's [Ethaqualone](substance)?
+    - [Ethaqualone](substance) is what?
+    - what's [etaqualone](substance)?
+    - what is [Ethketamine](substance)
+    - what is [n-ethyl-norketamine](substance)
+    - [n-ethyl-norketamine](substance)?
+    - what is [n-ethylnorketamine](substance)?
+    - [n-ethylnorketamine](substance) is?
+    - what [nek](substance)
+    - whats [NEP](substance)
+    - what [ethyl-pentedrone](substance)
+    - [ethyl-pentedrone](substance)?
+    - what is [n-ethylpentedrone](substance)?
+    - what is [Ethylmorphine](substance)?
+    - whats [codethyline](substance)
+    - what [dionine](substance)
+    - whats [Ethylone](substance)
+    - what's [bk-mdea](substance)?
+    - what's [mdec](substance)?
+    - what is [Ethylphenidate](substance)
+    - what is [eph](substance)?
+    - what's [Etizolam](substance)?
+    - what's [depas](substance)?
+    - [depas](substance)?
+    - what is [etilaam](substance)?
+    - [etilaam](substance) is what?
+    - what's [etiz](substance)?
+    - what is [etizest](substance)
+    - what's [etizola](substance)?
+    - what [inxity](substance)
+    - what is [lamet](substance)
+    - [lamet](substance) is?
+    - whats [sedekopan](substance)
+    - what is [towa](substance)
+    - what [zoly](substance)
+    - what is [Etodesnitazene](substance)
+    - [Etodesnitazene](substance)?
+    - what is [etazene](substance)?
+    - what is [F-Phenibut](substance)?
+    - [F-Phenibut](substance)?
+    - whats [fluorobut](substance)
+    - [fluorobut](substance) is?
+    - what's [fluorophenibut](substance)?
+    - what [Fasoracetam](substance)
+    - [Fasoracetam](substance)?
+    - what's [Fentanyl](substance)?
+    - what is [abstral](substance)
+    - what [actiq](substance)
+    - what [duragesic](substance)
+    - what is [durogesic](substance)
+    - whats [fent](substance)
+    - whats [fentanil](substance)
+    - what [fentora](substance)
+    - what [haldid](substance)
+    - [haldid](substance) is?
+    - what is [instanyl](substance)?
+    - what is [lazanda](substance)
+    - whats [matrifen](substance)
+    - what is [onsolis](substance)?
+    - what [sublimaze](substance)
+    - what is [Flualprazolam](substance)?
+    - [Flualprazolam](substance) is what?
+    - whats [Flubromazepam](substance)
+    - what is [Flubromazolam](substance)?
+    - what's [f-lam](substance)?
+    - what is [flam](substance)
+    - [flam](substance) is what?
+    - whats [Fluclotizolam](substance)
+    - what [Flunitrazepam](substance)
+    - what is [rohypnol](substance)
+    - what is [roofies](substance)
+    - [roofies](substance) is?
+    - what is [Flunitrazolam](substance)
+    - [Flunitrazolam](substance) is what?
+    - what [fln](substance)
+    - what is [Fluorolintane](substance)
+    - what [Fluorophenibut](substance)
+    - [Fluorophenibut](substance) is what?
+    - what is [Fluoxetine](substance)
+    - what [prozac](substance)
+    - what is [sarafem](substance)
+    - [sarafem](substance) is?
+    - whats [Flurazepam](substance)
+    - what [dalmane](substance)
+    - [dalmane](substance)?
+    - whats [Flutazolam](substance)
+    - what is [Flutoprazepam](substance)?
+    - what's [restas](substance)?
+    - what is [Fluvoxamine](substance)?
+    - what is [faverin](substance)
+    - what [luvox](substance)
+    - [luvox](substance) is?
+    - whats [Dexmethylphenidate](substance)
+    - what [dextromethylphenidate](substance)
+    - what's [Furanylfentanyl](substance)?
+    - [Furanylfentanyl](substance)?
+    - what [fu-f](substance)
+    - [fu-f](substance)?
+    - what's [furanyl-fentanyl](substance)?
+    - [furanyl-fentanyl](substance) is what?
+    - what [G-130](substance)
+    - what is [GABA](substance)
+    - [GABA](substance) is?
+    - whats [Gabapentin](substance)
+    - what is [gabarone](substance)
+    - what is [gralise](substance)?
+    - what [neurontin](substance)
+    - whats [Galantamine](substance)
+    - what [GBL](substance)
+    - whats [gamma-butyrolactone](substance)
+    - what is [GHB](substance)?
+    - what's [g](substance)?
+    - what [sodium oxybate](substance)
+    - [sodium oxybate](substance)?
+    - what is [xyrem](substance)?
+    - what's [Glaucine](substance)?
+    - what [Glutethimide](substance)
+    - what [doriden](substance)
+    - whats [elrodorm](substance)
+    - whats [glimid](substance)
+    - what's [noxyron](substance)?
+    - what [Halazepam](substance)
+    - what's [paxipam](substance)?
+    - what [Haloperidol](substance)
+    - what is [haldol](substance)?
+    - what is [Halothane](substance)
+    - [Halothane](substance) is what?
+    - what is [HDEP-28](substance)
+    - what is [ethylnaphthidate](substance)?
+    - what's [HDMP-28](substance)?
+    - what [methylnaphthidate](substance)
+    - what is [methylnaphtidate](substance)?
+    - [methylnaphtidate](substance)?
+    - what is [Heroin](substance)
+    - [Heroin](substance) is what?
+    - what [brown](substance)
+    - whats [diamorphine](substance)
+    - what is [h](substance)?
+    - what is [junk](substance)?
+    - what [smack](substance)
+    - what [Hexedrone](substance)
+    - what is [Hexen](substance)
+    - [Hexen](substance) is what?
+    - what is [ethyl-hexedrone](substance)?
+    - whats [hex-en](substance)
+    - whats [n-ethyl-hexedrone](substance)
+    - what is [n-ethylhexedrone](substance)?
+    - what's [neh](substance)?
+    - what is [Hexobarbital](substance)
+    - [Hexobarbital](substance)?
+    - what is [Homomazindol](substance)?
+    - what is [Homosildenafil](substance)?
+    - whats [HOT-2](substance)
+    - [HOT-2](substance)?
+    - what is [hot2](substance)?
+    - whats [HOT-7](substance)
+    - [HOT-7](substance) is what?
+    - what's [hot7](substance)?
+    - what's [HUPERZINE-A](substance)?
+    - what is [h-a](substance)
+    - what's [Hydrocodone](substance)?
+    - [Hydrocodone](substance) is?
+    - what [hydro](substance)
+    - what is [vicodin](substance)?
+    - what is [vicodin (with paracetamol)](substance)?
+    - [vicodin (with paracetamol)](substance)?
+    - whats [zohydro er (extended-release)](substance)
+    - what [Hydromorphone](substance)
+    - what is [dilaudid](substance)
+    - what's [diluadid](substance)?
+    - what is [jurnista](substance)?
+    - what [palladone](substance)
+    - [palladone](substance)?
+    - what is [Hydroxyzine](substance)
+    - what's [atarax](substance)?
+    - what is [vistaril](substance)
+    - what's [Hyoscyamus niger (botany)](substance)?
+    - what is [henbane](substance)
+    - what's [stinking nightshade](substance)?
+    - what is [Ibogaine](substance)
+    - [Ibogaine](substance) is?
+    - what [iboga](substance)
+    - what is [Ibuprofen](substance)?
+    - what [Indapex](substance)
+    - [Indapex](substance) is what?
+    - whats [5-meo-tmt](substance)
+    - what [Indapyrophenidone](substance)
+    - what [Isomethadone](substance)
+    - what's [Isophenmetrazine](substance)?
+    - [Isophenmetrazine](substance) is what?
+    - what is [Isopropylphenidate](substance)
+    - what's [iph](substance)?
+    - what is [ipp](substance)
+    - whats [ippd](substance)
+    - what [ipph](substance)
+    - what is [Isoproscaline](substance)?
+    - whats [ip](substance)
+    - what is [Jenkem](substance)?
+    - whats [JWH-073](substance)
+    - what is [spice](substance)
+    - what is [Kanna](substance)?
+    - [Kanna](substance) is?
+    - what [Kava](substance)
+    - [Kava](substance)?
+    - whats [Ketamine](substance)
+    - what is [cat tranquilizer](substance)
+    - what is [k](substance)?
+    - what is [ket](substance)
+    - whats [ketalar](substance)
+    - what [ketanest](substance)
+    - what [ketaset](substance)
+    - what [kittens](substance)
+    - what is [kitty](substance)?
+    - whats [special k](substance)
+    - whats [Ketazolam](substance)
+    - whats [Ketobemidone](substance)
+    - [Ketobemidone](substance) is what?
+    - what's [kbd](substance)?
+    - what's [Khat](substance)?
+    - what's [Kratom](substance)?
+    - what [ketum](substance)
+    - what [kratom](substance)
+    - what [kratum](substance)
+    - what's [mitragyna speciosa](substance)?
+    - what is [กระท่อม (thai)](substance)
+    - what [Theanine](substance)
+    - what's [l-theanine](substance)?
+    - what [l-γ-glutamylethylamide and n5-ethyl-l-glutamine](substance)
+    - what is [Librium](substance)
+    - [Librium](substance) is what?
+    - what's [chlordiazepoxide](substance)?
+    - whats [Vyvanse](substance)
+    - [Vyvanse](substance) is what?
+    - whats [elvanse](substance)
+    - whats [lisdexamfetamine](substance)
+    - what is [lisdexamphetamine](substance)
+    - [lisdexamphetamine](substance) is?
+    - what [lisdextroamfetamine](substance)
+    - what [lisdextroamphetamine](substance)
+    - what is [Loprazolam](substance)?
+    - what's [dormonoct](substance)?
+    - what is [Lorazepam](substance)
+    - what is [ativan](substance)
+    - [ativan](substance) is what?
+    - what [lorsilan](substance)
+    - what is [orfidal](substance)
+    - what [Lormetazepam](substance)
+    - [Lormetazepam](substance)?
+    - what is [noctamid](substance)
+    - what [LSA](substance)
+    - what is [ergine](substance)
+    - whats [hbmg](substance)
+    - [hbmg](substance)?
+    - whats [hbw](substance)
+    - what is [hbwr](substance)?
+    - what is [morning](substance)
+    - whats [morning_glory](substance)
+    - whats [morningglory](substance)
+    - whats [ololiuqui](substance)
+    - [ololiuqui](substance) is?
+    - what's [LSD](substance)?
+    - [LSD](substance) is?
+    - what [acid](substance)
+    - what's [blotter](substance)?
+    - [blotter](substance) is what?
+    - what's [cid](substance)?
+    - whats [l](substance)
+    - whats [lsd-25](substance)
+    - [lsd-25](substance) is?
+    - what's [lucy](substance)?
+    - [lucy](substance) is?
+    - what is [tabs](substance)
+    - what is [LSM-775](substance)?
+    - what's [lsm](substance)?
+    - what is [LSZ](substance)?
+    - what [diazedine](substance)
+    - what's [la-ss-az](substance)?
+    - what [lambda](substance)
+    - what is [Mandragora](substance)
+    - what's [mandrake](substance)?
+    - [mandrake](substance) is?
+    - what is [Mandragora officinarum (botany)](substance)?
+    - [Mandragora officinarum (botany)](substance) is what?
+    - what's [mandrake](substance)?
+    - what is [Marinol](substance)
+    - what [cesamet](substance)
+    - what [delta9-tetrahydrocannabinol](substance)
+    - what is [delta9-thc](substance)
+    - [delta9-thc](substance)?
+    - whats [dronabinol](substance)
+    - whats [syndros](substance)
+    - what [δ9--tetrahydrocannabinol](substance)
+    - what's [δ9-thc](substance)?
+    - what is [MBDB](substance)
+    - what is [eden](substance)?
+    - what is [methyl-j](substance)
+    - what's [MBZP](substance)?
+    - [MBZP](substance) is what?
+    - whats [methylbenylpiperazine](substance)
+    - what is [MCPP](substance)?
+    - what is [MDA](substance)
+    - [MDA](substance)?
+    - what is [sally](substance)?
+    - what [sass](substance)
+    - [sass](substance) is what?
+    - what is [tenamfetamine](substance)
+    - what is [MDAI](substance)
+    - what is [MDEA](substance)?
+    - [MDEA](substance)?
+    - whats [eve](substance)
+    - what is [mde](substance)
+    - what [MDMA](substance)
+    - whats [adam](substance)
+    - what [beans](substance)
+    - [beans](substance) is?
+    - what's [e](substance)?
+    - whats [ecstasy](substance)
+    - what [emma](substance)
+    - [emma](substance) is?
+    - what is [mandy](substance)
+    - whats [md](substance)
+    - [md](substance) is what?
+    - what's [molly](substance)?
+    - [molly](substance) is?
+    - what is [rolls](substance)
+    - whats [x](substance)
+    - what's [xtc](substance)?
+    - [xtc](substance) is what?
+    - what [MDOH](substance)
+    - what is [MDPA](substance)?
+    - what's [methylenedioxyphenylacetamide](substance)?
+    - what [Mdphp](substance)
+    - what is [monkey-dust](substance)?
+    - what's [MDPV](substance)?
+    - what is [bath salts](substance)
+    - what is [bath_salts](substance)
+    - what is [nrg-1](substance)
+    - what's [Mebroqualone](substance)?
+    - what [mbq](substance)
+    - what is [Meclonazepam](substance)
+    - what is [Medazepam](substance)?
+    - what is [azepamid](substance)?
+    - what is [mezapam](substance)
+    - [mezapam](substance) is what?
+    - what is [nobrium](substance)
+    - [nobrium](substance) is what?
+    - what [raporan](substance)
+    - what is [rudotel](substance)
+    - [rudotel](substance) is what?
+    - what is [talis](substance)
+    - what is [Melatonin](substance)?
+    - [Melatonin](substance) is what?
+    - whats [MEM](substance)
+    - what is [Memantine](substance)
+    - whats [both extended-release)](substance)
+    - what's [ebixa](substance)?
+    - what's [memaxa](substance)?
+    - what's [namenda](substance)?
+    - what's [namenda xr](substance)?
+    - what [namzaric (with donepezil](substance)
+    - what is [Mephedrone](substance)
+    - what [4-methylmethcathinone](substance)
+    - what is [4-mmc](substance)
+    - whats [4mmc](substance)
+    - what is [drone](substance)
+    - [drone](substance) is?
+    - what's [m-cat](substance)?
+    - [m-cat](substance)?
+    - what's [meow](substance)?
+    - what is [meow meow](substance)?
+    - what's [4-MPM](substance)?
+    - what [4-methylphenmetrazine](substance)
+    - whats [Mephtetramine](substance)
+    - what is [mtta](substance)
+    - what's [Mescaline](substance)?
+    - what is [buttons](substance)?
+    - what's [mesc](substance)?
+    - [mesc](substance)?
+    - whats [san](substance)
+    - whats [san-pedro](substance)
+    - what's [MET](substance)?
+    - [MET](substance)?
+    - what [methylethyltryptamine](substance)
+    - [methylethyltryptamine](substance) is?
+    - what is [Metaclazepam](substance)?
+    - [Metaclazepam](substance)?
+    - what is [Metaxalone](substance)
+    - [Metaxalone](substance) is what?
+    - what is [skelaxin](substance)?
+    - what is [Methadone](substance)
+    - what [dolophine](substance)
+    - what [Methallylescaline](substance)
+    - [Methallylescaline](substance) is?
+    - what is [mal](substance)
+    - what is [Methamnetamine](substance)?
+    - what is [methylnaphetamine](substance)?
+    - [methylnaphetamine](substance) is?
+    - what [mnt](substance)
+    - whats [n-methyl-pal-287](substance)
+    - what is [Methamphetamine](substance)?
+    - what is [crank](substance)?
+    - whats [desoxyn](substance)
+    - what [glass](substance)
+    - whats [ice](substance)
+    - what's [meth](substance)?
+    - what is [shard](substance)?
+    - whats [speed](substance)
+    - what [tik](substance)
+    - what is [tina](substance)
+    - whats [Methaqualone](substance)
+    - what is [ludes](substance)
+    - what's [mandrax](substance)?
+    - what's [quaaludes](substance)?
+    - what [qualudes](substance)
+    - what is [sopor](substance)?
+    - what is [Methedrone](substance)
+    - what's [bk-pmma](substance)?
+    - [bk-pmma](substance)?
+    - what [MPA](substance)
+    - what's [methiopropamine](substance)?
+    - whats [MXE](substance)
+    - what is [3-meo-2'oxo-pce](substance)
+    - [3-meo-2'oxo-pce](substance)?
+    - what is [methoxetamine](substance)
+    - what [mexxy](substance)
+    - what's [Methoxphenidine](substance)?
+    - what's [2-meo-diphenidine](substance)?
+    - whats [2-mxp](substance)
+    - what [methoxyphenidine](substance)
+    - whats [mxp](substance)
+    - [mxp](substance) is what?
+    - what is [METHOXYACETYL-FENTANYL](substance)?
+    - what [desfluoroocfentanil](substance)
+    - what [maf](substance)
+    - [maf](substance)?
+    - what is [Methoxyketamine](substance)
+    - whats [2-meo-ketamine](substance)
+    - whats [Methoxypiperamide](substance)
+    - whats [Methylmethaqualone](substance)
+    - what is [mmq](substance)?
+    - what's [Methylmorphenate](substance)?
+    - what [Methylone](substance)
+    - [Methylone](substance) is?
+    - what [bk-mdma](substance)
+    - what's [m1](substance)?
+    - [m1](substance) is what?
+    - whats [mdmc](substance)
+    - what's [Methylphenidate](substance)?
+    - what is [biphentin](substance)
+    - [biphentin](substance) is what?
+    - what is [concerta](substance)
+    - what's [equasym xl](substance)?
+    - what [methylin](substance)
+    - what is [mph](substance)?
+    - what [ritalin](substance)
+    - what [Methyprylon](substance)
+    - what is [noludar](substance)
+    - what's [Metizolam](substance)?
+    - what [desmethyletizolam](substance)
+    - [desmethyletizolam](substance) is?
+    - what [metiz](substance)
+    - what is [Mexamine](substance)?
+    - whats [Mexazolam](substance)
+    - what [melex](substance)
+    - what [sedoxil](substance)
+    - [sedoxil](substance)?
+    - what's [Mexedrone](substance)?
+    - whats [4-mmc-meo](substance)
+    - what [4-mmeoc](substance)
+    - what [Midazolam](substance)
+    - [Midazolam](substance) is what?
+    - what's [MiPLA](substance)?
+    - what is [lamide](substance)?
+    - whats [MiPT](substance)
+    - what is [n-methyl-n-isopropyltryptamine](substance)
+    - what's [Mirtazapine](substance)?
+    - what's [avanza](substance)?
+    - what's [axit](substance)?
+    - whats [mirtaz](substance)
+    - what's [mirtazon](substance)?
+    - whats [remeron](substance)
+    - what is [zispin](substance)?
+    - [zispin](substance) is what?
+    - what is [MK-801](substance)?
+    - what is [dizocilpine](substance)
+    - what's [mk801](substance)?
+    - what [Moclobemide](substance)
+    - what is [Modafinil](substance)
+    - what's [alertec](substance)?
+    - [alertec](substance) is what?
+    - what [modalert](substance)
+    - what's [modavigil](substance)?
+    - [modavigil](substance) is what?
+    - whats [modiodal](substance)
+    - what is [provigil](substance)?
+    - what's [Morpheridine](substance)?
+    - what [Morphine](substance)
+    - what's [mscontin](substance)?
+    - what is [oramorph](substance)?
+    - what's [sevredol](substance)?
+    - [sevredol](substance) is?
+    - what is [zomorph](substance)
+    - what is [MPT](substance)?
+    - whats [methylpropyltryptamine](substance)
+    - what's [MT-45](substance)?
+    - what [ic-6](substance)
+    - whats [mt45](substance)
+    - [mt45](substance)?
+    - whats [Mushrooms](substance)
+    - what's [mushroom](substance)?
+    - [mushroom](substance) is what?
+    - what is [psilocybin](substance)?
+    - what is [psylocybin](substance)?
+    - [psylocybin](substance)?
+    - what is [shrooms](substance)?
+    - whats [MXiPr](substance)
+    - [MXiPr](substance)?
+    - what [mxip](substance)
+    - what [MXM](substance)
+    - whats [methoxmetamine](substance)
+    - what's [Myristicin](substance)?
+    - [Myristicin](substance) is?
+    - what is [nutmeg](substance)
+    - what is [N-Acetylcysteine](substance)
+    - what [Naloxone](substance)
+    - what [evzio](substance)
+    - whats [narcan](substance)
+    - whats [Naphyrone](substance)
+    - what [Naproxen](substance)
+    - [Naproxen](substance) is what?
+    - whats [NEB](substance)
+    - what's [n-ethylbuphedrone](substance)?
+    - what [Nefiracetam](substance)
+    - what is [nerfiracetam](substance)
+    - what [Nicomorphine](substance)
+    - what [Nicotine](substance)
+    - what is [Nifoxipam](substance)
+    - what is [Nimetazepam](substance)
+    - [Nimetazepam](substance)?
+    - what's [erimin](substance)?
+    - what's [Nitemazepam](substance)?
+    - what [3-hydroxynimetazepam](substance)
+    - what [Nitracaine](substance)
+    - what's [Nitrazepam](substance)?
+    - [Nitrazepam](substance)?
+    - what's [baronite](substance)?
+    - what is [dormin](substance)?
+    - what [dreem](substance)
+    - what is [enzed](substance)?
+    - what [gentravit](substance)
+    - whats [hypnonex](substance)
+    - what [hypnoril](substance)
+    - what is [hypnotex](substance)
+    - whats [konit](substance)
+    - what is [mogadon](substance)
+    - what is [nicare](substance)
+    - what is [nigap](substance)
+    - what [nipam](substance)
+    - what [nirosun](substance)
+    - whats [nitavan](substance)
+    - what's [nithra](substance)?
+    - whats [Nitrazolam](substance)
+    - what's [N2O](substance)?
+    - what [laughing_gas](substance)
+    - [laughing_gas](substance) is what?
+    - what is [n20](substance)?
+    - what is [nos](substance)?
+    - what [NM-2-AI](substance)
+    - what's [Chloral hydrate](substance)?
+    - what is [aquachloral](substance)?
+    - [aquachloral](substance)?
+    - what [chloral-hydrate](substance)
+    - what is [somnos](substance)
+    - what is [Noopept](substance)?
+    - what's [gvs-111](substance)?
+    - what's [omberacetam](substance)?
+    - [omberacetam](substance)?
+    - what's [ноопепт](substance)?
+    - what is [Nordazepam](substance)?
+    - [Nordazepam](substance) is what?
+    - whats [desmethyldiazepam](substance)
+    - what is [nordaz](substance)
+    - whats [nordiazepam](substance)
+    - [nordiazepam](substance) is?
+    - what is [Norflurazepam](substance)?
+    - what is [n-desalkylflurazepam](substance)?
+    - what [O-Desmethyltramadol](substance)
+    - [O-Desmethyltramadol](substance) is what?
+    - what is [o-dsmt](substance)
+    - [o-dsmt](substance) is what?
+    - what is [o-smt](substance)?
+    - what is [odt](substance)?
+    - what is [O-PCE](substance)?
+    - [O-PCE](substance) is what?
+    - whats [2'-oxo-pce](substance)
+    - [2'-oxo-pce](substance) is what?
+    - what is [2-oxo-pce](substance)?
+    - whats [eticyclidone](substance)
+    - what [opce](substance)
+    - what is [Opium](substance)?
+    - what's [o](substance)?
+    - what's [Oxazepam](substance)?
+    - what's [serax](substance)?
+    - [serax](substance)?
+    - whats [Oxazolam](substance)
+    - whats [Oxiracetam](substance)
+    - what [hydroxypiracetam](substance)
+    - what is [neuractiv](substance)?
+    - whats [neuromet](substance)
+    - what [Oxycodone](substance)
+    - what's [codilek](substance)?
+    - [codilek](substance) is?
+    - whats [endone](substance)
+    - what is [oxecta](substance)?
+    - [oxecta](substance) is?
+    - what is [oxy](substance)
+    - what is [oxycontin](substance)
+    - what [oxydor](substance)
+    - what is [oxygesic](substance)
+    - what's [oxyir](substance)?
+    - what's [oxynor](substance)?
+    - [oxynor](substance)?
+    - what's [oxynorm](substance)?
+    - what is [percocet](substance)
+    - what is [redocam](substance)?
+    - [redocam](substance) is?
+    - what [roxicodone](substance)
+    - whats [Oxymorphone](substance)
+    - [Oxymorphone](substance)?
+    - what [opana](substance)
+    - [opana](substance) is?
+    - what [stopsigns](substance)
+    - what's [Pagoclone](substance)?
+    - what is [Dextromoramide](substance)
+    - what is [4-Fluorobutyrfentanyl](substance)?
+    - what's [4-fbf](substance)?
+    - what [pfbf](substance)
+    - what is [Parafluorofentanyl](substance)?
+    - [Parafluorofentanyl](substance)?
+    - what's [4-fluorofentanyl](substance)?
+    - [4-fluorofentanyl](substance) is what?
+    - what [pff](substance)
+    - what is [PARGY-LAD](substance)?
+    - what is [Paroxetine](substance)
+    - what is [paxil](substance)
+    - [paxil](substance) is what?
+    - what [seroxat](substance)
+    - whats [PCE](substance)
+    - what is [eticyclidine](substance)
+    - whats [PCP](substance)
+    - what is [angel](substance)
+    - [angel](substance) is what?
+    - whats [angel dust](substance)
+    - [angel dust](substance)?
+    - whats [angel_dust](substance)
+    - whats [angeldust](substance)
+    - what's [dust](substance)?
+    - [dust](substance)?
+    - whats [phencyclidine](substance)
+    - [phencyclidine](substance)?
+    - what [sernyl](substance)
+    - whats [sherman](substance)
+    - what is [wet](substance)?
+    - whats [Peganum harmala](substance)
+    - what is [esfand](substance)
+    - whats [espand](substance)
+    - what is [syrian rue](substance)
+    - whats [Pemoline](substance)
+    - whats [Pentazocine](substance)
+    - what is [talwin](substance)?
+    - whats [Pentedrone](substance)
+    - what is [drone](substance)?
+    - what's [Pentobarbital](substance)?
+    - [Pentobarbital](substance) is?
+    - what is [nembutal](substance)
+    - what is [novopentobarb](substance)?
+    - what is [pentobarbitone](substance)?
+    - [pentobarbitone](substance)?
+    - whats [Pentylone](substance)
+    - what is [4-meppp](substance)
+    - [4-meppp](substance)?
+    - what's [bk-mbdp](substance)?
+    - what is [bk-methyl-k](substance)?
+    - what [Peyote](substance)
+    - what [PFBT](substance)
+    - what [4-fluorotropacocaine](substance)
+    - what [Phenazepam](substance)
+    - [Phenazepam](substance)?
+    - what's [Phenethylamine](substance)?
+    - what [pea](substance)
+    - what is [Phenetrazine](substance)?
+    - whats [Phenibut](substance)
+    - whats [fenibut](substance)
+    - [fenibut](substance) is?
+    - what's [phenybut](substance)?
+    - [phenybut](substance) is?
+    - what is [phgaba](substance)?
+    - what is [Phenmetrazine](substance)
+    - what is [preludin](substance)?
+    - [preludin](substance)?
+    - what's [Phenobarbital](substance)?
+    - what [luminal](substance)
+    - what is [pheno](substance)
+    - [pheno](substance) is?
+    - what [phenobarb](substance)
+    - what's [phenobarbitone](substance)?
+    - what's [Phentermine](substance)?
+    - what [Picamilon](substance)
+    - whats [Pinazepam](substance)
+    - what is [domar](substance)?
+    - [domar](substance) is what?
+    - what is [Piper nigrum (botany)](substance)
+    - what is [black pepper](substance)?
+    - what [green pepper](substance)
+    - what is [peppercorn](substance)
+    - whats [white pepper](substance)
+    - what [PiPT](substance)
+    - what's [Piracetam](substance)?
+    - what is [biotropil](substance)
+    - what is [breinox](substance)
+    - what is [geratam](substance)?
+    - what is [lucetam](substance)?
+    - what [noostan](substance)
+    - what's [nootropil](substance)?
+    - what [oikamid](substance)
+    - what is [Ethchlorvynol](substance)
+    - what is [ethchlorvnol](substance)
+    - what [placidyl](substance)
+    - [placidyl](substance) is?
+    - what's [PMA](substance)?
+    - [PMA](substance) is?
+    - what's [4-ma](substance)?
+    - whats [death](substance)
+    - what [PMMA](substance)
+    - [PMMA](substance) is?
+    - what is [4-mma](substance)?
+    - what's [pma](substance)?
+    - what [Pramiracetam](substance)
+    - what is [Prazepam](substance)?
+    - what's [centrac](substance)?
+    - what is [centrax](substance)?
+    - [centrax](substance) is?
+    - whats [demetrin](substance)
+    - what [lysanxia](substance)
+    - what's [pozapam](substance)?
+    - what is [prasepine](substance)
+    - what is [prazene](substance)?
+    - what is [reapam](substance)?
+    - [reapam](substance) is what?
+    - what is [trepidan](substance)
+    - whats [PRE-084](substance)
+    - what is [Pregabalin](substance)?
+    - what is [lyrica](substance)
+    - [lyrica](substance)?
+    - what [pregablin](substance)
+    - what [PRL-8-53](substance)
+    - what [prl853](substance)
+    - what is [PRO-LAD](substance)
+    - what's [Prochlorperazine](substance)?
+    - what is [buccastem](substance)?
+    - what [compazine](substance)
+    - [compazine](substance) is?
+    - what's [phenotil](substance)?
+    - what [stemetil](substance)
+    - what [stemzine](substance)
+    - whats [Prolintane](substance)
+    - whats [catovit](substance)
+    - what [promotil](substance)
+    - what is [villescon](substance)?
+    - [villescon](substance) is what?
+    - what [Promethazine](substance)
+    - what is [Propofol](substance)?
+    - [Propofol](substance)?
+    - what is [diprivan](substance)?
+    - [diprivan](substance) is what?
+    - what is [milk-of-amnesia](substance)
+    - what is [Propoxyphene](substance)?
+    - [Propoxyphene](substance)?
+    - what is [Propranolol](substance)?
+    - what is [hemangeol](substance)
+    - what's [inderal](substance)?
+    - [inderal](substance) is what?
+    - whats [innopran](substance)
+    - what is [Propylhexedrine](substance)
+    - what is [benzedrex](substance)?
+    - [benzedrex](substance) is?
+    - what is [hexahdromethamphetamine](substance)
+    - what is [propylhexadrine](substance)?
+    - [propylhexadrine](substance)?
+    - what is [Propylphenidate](substance)
+    - what is [pph](substance)
+    - whats [Proscaline](substance)
+    - [Proscaline](substance)?
+    - what is [Pseudoephrine](substance)?
+    - what [Psilocin](substance)
+    - whats [4-ho-dmt](substance)
+    - whats [4-oh-dmt](substance)
+    - whats [psilocine](substance)
+    - what is [psilocyn](substance)?
+    - what is [psilotsin](substance)
+    - what [Psilocybe cubensis](substance)
+    - what is [magic mushroom](substance)?
+    - whats [shrooms](substance)
+    - what's [PST](substance)?
+    - what is [poppy-seed-tea](substance)
+    - what is [poppy-tea](substance)
+    - what is [PV-10](substance)
+    - what is [PV-8](substance)?
+    - what is [a-phpp](substance)?
+    - what [PV-9](substance)
+    - what is [Pyrazolam](substance)
+    - [Pyrazolam](substance) is what?
+    - what's [Pyrophenidone](substance)?
+    - what is [Quazepam](substance)
+    - whats [doral](substance)
+    - [doral](substance)?
+    - what [Quetiapine](substance)
+    - what [seroquel](substance)
+    - [seroquel](substance) is what?
+    - what is [Rilmazafone](substance)?
+    - whats [rhythmy](substance)
+    - what is [Risperidone](substance)?
+    - what [risperdal](substance)
+    - what is [Rolicyclidine](substance)?
+    - whats [pcpy](substance)
+    - what's [Ronlax](substance)?
+    - whats [ethyl-loflazepate](substance)
+    - what is [meilax](substance)?
+    - what [victan](substance)
+    - what [Salvia](substance)
+    - what [sage of the diviners](substance)
+    - whats [sally](substance)
+    - what's [salvia divinorum](substance)?
+    - what is [seer's sage](substance)
+    - what's [ska maría pastora](substance)?
+    - what is [yerba de la pastora](substance)?
+    - what is [Salvinorin A](substance)
+    - what's [diviner's sage](substance)?
+    - whats [sally](substance)
+    - whats [salvia](substance)
+    - [salvia](substance)?
+    - what [salvia divinorum](substance)
+    - what [seer's sage](substance)
+    - what is [ska maría pastora](substance)?
+    - what's [SAM-e](substance)?
+    - what's [methylguanidoacetic acid](substance)?
+    - what is [s-adenosyl methionine](substance)
+    - what is [Scopolamine](substance)
+    - [Scopolamine](substance) is what?
+    - what is [Secobarbital](substance)
+    - what [secobarbitone](substance)
+    - what's [seconal](substance)?
+    - what is [Sertraline](substance)
+    - [Sertraline](substance) is what?
+    - what is [lustral](substance)
+    - what is [zoloft](substance)?
+    - [zoloft](substance) is what?
+    - what is [Sinicuichi](substance)?
+    - what is [heimia-salicifolia](substance)?
+    - what's [shrubby-yellowcrest](substance)?
+    - what [sini](substance)
+    - what's [sun-opener](substance)?
+    - what [willow-leaf-heimia](substance)
+    - what is [Sonata](substance)
+    - whats [zaleplon](substance)
+    - [zaleplon](substance)?
+    - what is [STS-135](substance)
+    - what is [Sufentanil](substance)?
+    - [Sufentanil](substance) is what?
+    - what's [chronogesic,](substance)?
+    - what is [sufenta](substance)
+    - what is [sufentanyl](substance)?
+    - what is [Sulbutiamine](substance)
+    - what [arcalion](substance)
+    - what [bisibuthiamine](substance)
+    - what [enerion](substance)
+    - whats [sulbut](substance)
+    - what [youvitan](substance)
+    - what [Tabernanthe iboga (botany)](substance)
+    - what's [iboga](substance)?
+    - [iboga](substance)?
+    - what is [Tapentadol](substance)?
+    - what is [nucynta](substance)?
+    - what's [palexia](substance)?
+    - what is [yantil](substance)
+    - what's [yantil sr](substance)?
+    - what is [Temazepam](substance)
+    - what [normison](substance)
+    - what [restoril](substance)
+    - what is [TETRAHYDROFURAN-FENTANYL](substance)
+    - what is [thf-f](substance)
+    - what's [thff](substance)?
+    - whats [Tetrazepam](substance)
+    - what [TH-PVP](substance)
+    - what [Theacrine](substance)
+    - what's [temorine](substance)?
+    - [temorine](substance) is?
+    - what is [temurin](substance)?
+    - what is [Thiopental](substance)
+    - whats [Thiopropamine](substance)
+    - [Thiopropamine](substance) is?
+    - what is [a-methyl-2-thipheneethanamine](substance)?
+    - what is [normethiopropamine](substance)
+    - what is [tpa](substance)?
+    - what's [THJ-018](substance)?
+    - [THJ-018](substance) is what?
+    - what is [THJ-2201](substance)?
+    - what [Tianeptine](substance)
+    - what's [coaxil](substance)?
+    - [coaxil](substance) is what?
+    - whats [stablon](substance)
+    - what's [tatinol](substance)?
+    - what is [Tiletamine](substance)
+    - what is [telazol](substance)
+    - what is [Tilidine](substance)
+    - what's [tilidate](substance)?
+    - what is [tilidin](substance)?
+    - what [valoron](substance)
+    - what [valtran](substance)
+    - whats [TMA-2](substance)
+    - what [TMA-6](substance)
+    - what is [Tolibut](substance)
+    - what is [Tramadol](substance)
+    - what is [tadol](substance)
+    - what is [tram](substance)?
+    - [tram](substance) is what?
+    - what is [tramacur](substance)?
+    - what is [tramal](substance)
+    - what's [tramundin](substance)?
+    - what is [Trazodone](substance)
+    - [Trazodone](substance) is?
+    - what is [Triazolam](substance)?
+    - what is [halcion](substance)?
+    - what is [Troparil](substance)
+    - what is [Truffles](substance)
+    - [Truffles](substance) is what?
+    - whats [Tuinal](substance)
+    - what's [beans](substance)?
+    - what [chirstmas-trees](substance)
+    - what is [jeebs](substance)
+    - [jeebs](substance) is?
+    - whats [nawls](substance)
+    - what is [rainbows](substance)?
+    - [rainbows](substance) is what?
+    - whats [tuinol](substance)
+    - what [Tyrosine](substance)
+    - what's [l-tyrosine](substance)?
+    - what's [4-hydroxyphenylalanine](substance)?
+    - what is [U-47700](substance)
+    - [U-47700](substance) is?
+    - whats [u47700](substance)
+    - what is [U-49900](substance)?
+    - what is [U-51754](substance)
+    - what [methene-u-47700](substance)
+    - what is [methene-u47700](substance)?
+    - what [Valerylfentanyl](substance)
+    - [Valerylfentanyl](substance) is what?
+    - what's [vf](substance)?
+    - what's [Sildenafil](substance)?
+    - whats [Viloxazine](substance)
+    - whats [W-15](substance)
+    - what is [YERBA-MATE](substance)?
+    - whats [YOPO](substance)
+    - what's ["anadenanthera](substance)?
+    - what is [anadenanthera](substance)
+    - [anadenanthera](substance)?
+    - whats [Zolazepam](substance)
+    - what is [Zolpidem](substance)?
+    - [Zolpidem](substance)?
+    - what's [ambien](substance)?
+    - what is [edluar](substance)
+    - what [intermezzo](substance)
+    - [intermezzo](substance)?
+    - what is [stilnox](substance)?
+    - what [zolpimist](substance)
+    - what's [Zopiclone](substance)?
+    - what's [imovane](substance)?
+    - what is [zimovane](substance)
+    - what's [α-PBP](substance)?
+    - what's [a-pbp](substance)?
+    - [a-pbp](substance)?
+    - what [alpha-pbp](substance)
+    - what [βH-2C-B](substance)
+    - what [beta-hydroxy-2c-b](substance)
+    - what is [bh-2c-b](substance)?
+    - [bh-2c-b](substance) is?
+    - what is [bh-2cb](substance)?
+    - whats [boh-2c-b](substance)
+    - what [boh-2cb](substance)
+    - what [bohb](substance)

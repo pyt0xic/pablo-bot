@@ -23,16 +23,23 @@ intents:
 - contact
 - inform
 - restart
+- what_is_substance
+
 
 entities:
 - language
 - location
 - name
+- substance
 
 slots:
   name:
     type: text
     influence_conversation: true
+  substance:
+    type: text
+    influence_conversation: true
+    auto_fill: true
 
 responses:
   utter_ask_name:
@@ -127,6 +134,8 @@ responses:
   - text: That depends on which you are using and, most importantly, how you are using them...
   utter_faq/drugs_legal:
   - text: Probably but it depends on where you are and what drugs
+  utter_what_is_stubstace:
+  - text: It is {substance}
 
   utter_out_of_scope/non_english:
   - text: No hablo english
