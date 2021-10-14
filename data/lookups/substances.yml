@@ -68,7 +68,7 @@ nlu:
     - 2-PA
     - 2-phenylacetamide
     - 2-PTA
-    - 2-(p-tolyl)acetamide
+    - 2-acetamide
     - 4-methyl-2-pa
     - 25B-NBOH
     - 25bnboh
@@ -786,7 +786,7 @@ nlu:
     - n,n-diallyltryptamine
     - Datura
     - jimson weed
-    - Datura (botany)
+    - Datura 
     - angel's trumpets
     - devil's trumpets
     - devil's weed
@@ -1064,8 +1064,8 @@ nlu:
     - Hydrocodone
     - hydro
     - vicodin
-    - vicodin (with paracetamol)
-    - zohydro er (extended-release)
+    - vicodin 
+    - zohydro er 
     - Hydromorphone
     - dilaudid
     - diluadid
@@ -1074,7 +1074,7 @@ nlu:
     - Hydroxyzine
     - atarax
     - vistaril
-    - Hyoscyamus niger (botany)
+    - Hyoscyamus niger 
     - henbane
     - stinking nightshade
     - Ibogaine
@@ -1116,7 +1116,7 @@ nlu:
     - kratom
     - kratum
     - mitragyna speciosa
-    - กระท่อม (thai)
+    - กระท่อม 
     - Theanine
     - l-theanine
     - l-γ-glutamylethylamide and n5-ethyl-l-glutamine
@@ -1161,7 +1161,7 @@ nlu:
     - lambda
     - Mandragora
     - mandrake
-    - Mandragora officinarum (botany)
+    - Mandragora officinarum 
     - mandrake
     - Marinol
     - cesamet
@@ -1513,7 +1513,7 @@ nlu:
     - Picamilon
     - Pinazepam
     - domar
-    - Piper nigrum (botany)
+    - Piper nigrum 
     - black pepper
     - green pepper
     - peppercorn
@@ -1656,7 +1656,7 @@ nlu:
     - enerion
     - sulbut
     - youvitan
-    - Tabernanthe iboga (botany)
+    - Tabernanthe iboga 
     - iboga
     - Tapentadol
     - nucynta
@@ -1829,7 +1829,7 @@ nlu:
     - 2-phenylacetamide
 - synonym: 2-PTA
   examples: |
-    - 2-(p-tolyl)acetamide
+    - 2-acetamide
     - 4-methyl-2-pa
 - synonym: 25B-NBOH
   examples: |
@@ -2648,7 +2648,7 @@ nlu:
 - synonym: Datura
   examples: |
     - jimson weed
-- synonym: Datura (botany)
+- synonym: Datura 
   examples: |
     - angel's trumpets
     - devil's trumpets
@@ -2964,8 +2964,8 @@ nlu:
   examples: |
     - hydro
     - vicodin
-    - vicodin (with paracetamol)
-    - zohydro er (extended-release)
+    - vicodin 
+    - zohydro er 
 - synonym: Hydromorphone
   examples: |
     - dilaudid
@@ -2976,7 +2976,7 @@ nlu:
   examples: |
     - atarax
     - vistaril
-- synonym: Hyoscyamus niger (botany)
+- synonym: Hyoscyamus niger 
   examples: |
     - henbane
     - stinking nightshade
@@ -3018,7 +3018,7 @@ nlu:
     - kratom
     - kratum
     - mitragyna speciosa
-    - กระท่อม (thai)
+    - กระท่อม 
 - synonym: Theanine
   examples: |
     - l-theanine
@@ -3074,7 +3074,7 @@ nlu:
 - synonym: Mandragora
   examples: |
     - mandrake
-- synonym: Mandragora officinarum (botany)
+- synonym: Mandragora officinarum 
   examples: |
     - mandrake
 - synonym: Marinol
@@ -3477,7 +3477,7 @@ nlu:
 - synonym: Pinazepam
   examples: |
     - domar
-- synonym: Piper nigrum (botany)
+- synonym: Piper nigrum 
   examples: |
     - black pepper
     - green pepper
@@ -3639,7 +3639,7 @@ nlu:
     - enerion
     - sulbut
     - youvitan
-- synonym: Tabernanthe iboga (botany)
+- synonym: Tabernanthe iboga 
   examples: |
     - iboga
 - synonym: Tapentadol

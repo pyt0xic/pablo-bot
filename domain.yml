@@ -1,6 +1,5 @@
 version: '2.0'
-config:
-  store_entities_as_slots: true
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -23,23 +22,35 @@ intents:
 - contact
 - inform
 - restart
-- what_is_substance
+- query_attributes
+- query_objects
 
 
 entities:
 - language
 - location
 - name
-- substance
+- substances
+- object_type
+- attribute
+- mention
 
 slots:
   name:
     type: text
     influence_conversation: true
-  substance:
+  substances:
     type: text
-    influence_conversation: true
-    auto_fill: true
+    influence_conversation: false
+  object_type:
+    type: text
+    influence_conversation: false
+  mention:
+    type: text
+    influence_conversation: false
+  attribute:
+    type: text
+    influence_conversation: false
 
 responses:
   utter_ask_name:
@@ -53,6 +64,9 @@ responses:
     image: https://i.imgur.com/nGF1K8f.jpg
   utter_did_that_help:
   - text: Did that help you?
+  utter_ask_rephrase:
+  - text: "Sorry, I'm not sure I understand. Can you rephrase?"
+  - text: "Can you please rephrase? I did not got that."
   utter_happy:
   - text: Great!, how can I help you today? I can tell you about our company, how we can help you or why you should consider implementign a chatbot into your business!
   utter_goodbye:
@@ -134,8 +148,7 @@ responses:
   - text: That depends on which you are using and, most importantly, how you are using them...
   utter_faq/drugs_legal:
   - text: Probably but it depends on where you are and what drugs
-  utter_what_is_stubstace:
-  - text: It is {substance}
+
 
   utter_out_of_scope/non_english:
   - text: No hablo english
@@ -146,3 +159,4 @@ actions:
 - utter_faq
 - utter_greet
 - utter_out_of_scope
+- action_query_knowledge_base

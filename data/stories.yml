@@ -22,3 +22,21 @@ stories:
   - action: utter_chitchat
   - intent: faq
   - action: utter_faq
+
+- story: knowledge base happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_objects
+  - action: action_query_knowledge_base
+  - intent: bye
+  - action: utter_goodbye
+
+- story: knowledge base hqappy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: query_attributes
+  - action: action_query_knowledge_base
+  - intent: bye
+  - action: utter_goodbye

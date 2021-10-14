@@ -33,7 +33,7 @@ import json
 import os
 import re
 import traceback
-from intentGen import intentGen
+from TrainingDataGen import DataGen
 
 headers = {
     "Access-Control-Allow-Origin": "*",
@@ -174,6 +174,7 @@ def pw_clean_common_name(name):
     name = re.sub(r'"?\[\d*\]$', "", name)
     name = re.sub(r"\s*More names\.$", "", name)
     name = re.sub(r"\.$", "", name)
+    name = re.sub(r"\(.*\)", "", name)
     return name.strip()
 
 
@@ -190,28 +191,18 @@ if os.path.exists("ts_pn_data/_cached_pw_substances.json"):
         pw_substance_data = json.load(f)
 
 if not len(pw_substance_data):
-    offset = 0
-    pw_substance_urls_query = (
-        f"{{substances(limit: 250 offset: {offset}) {{name url}}}}"
-    )
+    pw_substance_urls_query = """
+    {
+        substances(limit: 11000) {
+            name
+            url
+        }
+    }
+    """
 
-    pw_substance_urls_data = ps_client.execute(query=pw_substance_urls_query,)["data"][
+    pw_substance_urls_data = ps_client.execute(query=pw_substance_urls_query)["data"][
         "substances"
     ]
-
-    offset = 252
-    while offset <= 340:
-        pw_substance_urls_query = (
-            f"{{substances(limit: 1 offset: {offset}) {{name url}}}}"
-        )
-        offset += 1
-        temp_data = ps_client.execute(query=pw_substance_urls_query,)["data"][
-            "substances"
-        ]
-        print(temp_data)
-        if temp_data is None:
-            continue
-        pw_substance_urls_data.extend(temp_data)
 
     for idx, substance in enumerate(pw_substance_urls_data):
         try:
@@ -240,6 +231,7 @@ if not len(pw_substance_data):
                 else set()
             )
             cleaned_common_names.add(substance["name"])
+            print(cleaned_common_names)
             # don't include name in list of other common names
             common_names = sorted(filter(lambda n: n != name, cleaned_common_names))
 
@@ -365,7 +357,7 @@ if not len(pw_substance_data):
             print(traceback.format_exc())
             exit(1)
 
-    with open(f"ts_pn_data/_cached_pw_substances.json", "w") as f:
+    with open(f"ts_pn_data/_cached_pw_substances.json", "w", encoding="utf-8") as f:
         f.write(json.dumps(pw_substance_data, indent=2, ensure_ascii=False))
 
 # combine tripsit and psychonautwiki data
@@ -480,7 +472,10 @@ for name in all_substance_names:
                     continue
 
                 dose_levels.append(
-                    {"name": dose_level, "value": value_string,}
+                    {
+                        "name": dose_level,
+                        "value": value_string,
+                    }
                 )
 
             if len(dose_levels):
@@ -551,6 +546,13 @@ for name in all_substance_names:
             interactions.append(combo_data)
         interactions = sorted(interactions, key=lambda i: i["name"])
 
+    if classes != None:
+        chemical_class = classes["chemical"]
+        psychoactive_class = classes["psychoactive"]
+    else:
+        chemical_class = None
+        psychoactive_class = None
+
     substance_data.append(
         {
             "id": x,
@@ -562,6 +564,8 @@ for name in all_substance_names:
             "summary": summary,
             "reagents": test_kits,
             "classes": classes,
+            "chemicalClass": chemical_class,
+            "psychoactiveClass": psychoactive_class,
             "toxicity": toxicity,
             "addictionPotential": addiction_potential,
             "tolerance": tolerance,
@@ -576,19 +580,21 @@ for name in all_substance_names:
 
 substances_json = {}
 substances_json["substances"] = substance_data
-with open(f"ts_pn_data/substances_data.json", "w") as f:
+with open(f"ts_pn_data/substances_data.json", "w", encoding="utf-8") as f:
     json.dump(substances_json, fp=f, ensure_ascii=False, indent=2)
 
 
 substance_aliases = {}
 
-with open("data/lookups/substances.yml", "w") as fp:
+with open("data/lookups/substances.yml", "w", encoding="utf-8") as fp:
     # Lookup Table
     fp.write("""version: "2.0"\nnlu:\n- lookup: substance\n  examples: |\n""")
     for drug in substances_json["substances"]:
-        fp.write(f"    - {drug['name']}\n")
+        name = re.sub(r"\(.*\)", "", drug["name"])
+        fp.write(f"    - {name}\n")
         # Add aliases to lookup table too
         for y in drug["aliases"]:
+            y = re.sub(r"\(.*\)", "", y)
             # Check for "or" in aliases and remove
             if " or " in y:
                 aliases = y.split(" or ")
@@ -603,25 +609,27 @@ with open("data/lookups/substances.yml", "w") as fp:
     # Synonyms to map aliases to one entity
     for drug in substances_json["substances"]:
         # Skip adding synonym if there are no aliases
-        substance_aliases[drug["name"]] = []
+        name = re.sub(r"\(.*\)", "", drug["name"])
+        substance_aliases[name] = []
         if drug["aliases"] == []:
             continue
-        fp.write(f"- synonym: {drug['name']}\n  examples: |\n")
+        fp.write(f"- synonym: {name}\n  examples: |\n")
         for y in drug["aliases"]:
+            y = re.sub(r"\(.*\)", "", y)
             # Check for "or" in aliases and remove
             if " or " in y:
                 aliases = y.split(" or ")
                 fp.write(f"    - {aliases[0]}\n")
                 fp.write(f"    - {aliases[1]}\n")
-                substance_aliases[drug["name"]].append(aliases[0])
-                substance_aliases[drug["name"]].append(aliases[1])
+                substance_aliases[name].append(aliases[0])
+                substance_aliases[name].append(aliases[1])
             elif "or " in y:
                 aliases = y.split("or ")
                 fp.write(f"    - {aliases[1]}\n")
-                substance_aliases[drug["name"]].append(aliases[1])
+                substance_aliases[name].append(aliases[1])
             else:
                 fp.write(f"    - {y}\n")
-                substance_aliases[drug["name"]].append(y)
+                substance_aliases[name].append(y)
 
-with open("ts_pn_data/generated_intents.yml", "w") as fp:
-    fp.write(intentGen(substance_aliases).what_is())
+with open("ts_pn_data/generated_intents.yml", "w", encoding="utf-8") as fp:
+    fp.write(DataGen(substances_json).combo_gen())

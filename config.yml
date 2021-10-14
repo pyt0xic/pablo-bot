@@ -1,7 +1,7 @@
 language: en
 pipeline:
   - name: WhitespaceTokenizer
-    token_pattern: (?u)\b\w+\b
+#    token_pattern: (?u)\b\w+\b
   - name: RegexFeaturizer
     use_word_boundaries: false
     case_sensitive: false
